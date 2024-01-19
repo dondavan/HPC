@@ -34,7 +34,7 @@ int main (int argc, char *argv[])
   #pragma omp parallel for reduction(+ : pi)
   for(i = 0; i < niter; i++)
   {
-     pi = pi + pow(-1, i) * (4 / (2*((double) i)+1));
+     pi += pow(-1, i) * (4 / (2*((double) i)+1));
   } /* Reduction operation is done. All threads join master thread and disband */
 
   // Stop timing
