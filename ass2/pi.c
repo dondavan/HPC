@@ -9,12 +9,8 @@ int main (int argc, char *argv[])
 {
   int nthreads = 1;
   int ch;
-  while ((ch = getopt(argc, argv, "p")) != -1)
-  {
-    switch(ch) {
-      case 'p': nthreads = strtol(optarg, 0, 10); break;
-    }
-  }
+  printf("Args: %d\n",argc);
+  
 
   omp_set_num_threads(nthreads);
 
