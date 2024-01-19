@@ -23,7 +23,6 @@ int main (int argc, char *argv[])
   //initialize variables
   int i;
   double pi = 0;
-  double val = 0;
   int niter = 1000000000;
 
   // Get timing
@@ -32,10 +31,10 @@ int main (int argc, char *argv[])
 
   // Calculate PI using Leibnitz sum
   /* Fork a team of threads */
-  #pragma omp parallel for private(val) reduction(+ : pi)
+  #pragma omp parallel for reduction(+ : pi)
   for(i = 0; i < niter; i++)
   {
-     val += pow(-1, i) * (4 / (2*((double) i)+1));
+     pi += pow(-1, i) * (4 / (2*((double) i)+1));
   } /* Reduction operation is done. All threads join master thread and disband */
 
   // Stop timing
