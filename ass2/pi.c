@@ -7,7 +7,7 @@
 
 int main (int argc, char *argv[])
 {
-  int nthreads = 1;
+  int nthreads = 8;
   int ch;
   printf("Args: %d\n",argc);
   
