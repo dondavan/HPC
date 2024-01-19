@@ -16,18 +16,19 @@ int main (int argc, char *argv[])
     }
   }
 
-  omp_set_num_threads(nthreads);
+  //omp_set_num_threads(nthreads);
 
   printf("Number of threads: %d\n",nthreads);
 
   //initialize variables
   int i;
   double pi = 0;
-  int niter = 1000000000;
+  int niter = 100;
 
   // Get timing
   double start,end;
   start=omp_get_wtime();
+
 
   // Calculate PI using Leibnitz sum
   /* Fork a team of threads */
@@ -35,6 +36,8 @@ int main (int argc, char *argv[])
   for(i = 0; i < niter; i++)
   {
      pi += pow(-1, i) * (4 / (2*((double) i)+1));
+     int tid = omp_get_thread_num();
+      printf("Hello world from omp thread %d\n", tid);
   } /* Reduction operation is done. All threads join master thread and disband */
 
   // Stop timing
