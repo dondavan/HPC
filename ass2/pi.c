@@ -29,6 +29,10 @@ int main (int argc, char *argv[])
   double start,end;
   start=omp_get_wtime();
 
+  #pragma omp parallel 
+  {
+    printf("Yeah\n");
+  }
   // Calculate PI using Leibnitz sum
   /* Fork a team of threads */
   #pragma omp parallel for reduction(+ : pi)
