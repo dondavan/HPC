@@ -8,6 +8,7 @@
 int main (int argc, char *argv[])
 {
   int nthreads = 1;
+  int ch;
   while ((ch = getopt(argc, argv, "p")) != -1)
   {
     switch(ch) {
