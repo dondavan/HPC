@@ -36,7 +36,7 @@ int main (int argc, char *argv[])
   {
      pi += pow(-1, i) * (4 / (2*((double) i)+1));
      int tid = omp_get_thread_num();
-      printf("Sum from thread %d : %f \n", tid,pi);
+      printf("Sum from thread %d : %d \n", tid,i);
   } /* Reduction operation is done. All threads join master thread and disband */
 
   // Stop timing
