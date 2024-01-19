@@ -23,21 +23,19 @@ int main (int argc, char *argv[])
   //initialize variables
   int i;
   double pi = 0;
-  int niter = 1000000000;
+  int niter = 10;
 
   // Get timing
   double start,end;
   start=omp_get_wtime();
 
-  #pragma omp parallel 
-  {
-    printf("Yeah\n");
-  }
   // Calculate PI using Leibnitz sum
   /* Fork a team of threads */
   #pragma omp parallel for reduction(+ : pi)
   for(i = 0; i < niter; i++)
   {
+    int tid = omp_get_thread_num();
+        printf("Hello world from omp thread %d\n", tid);
      pi += pow(-1, i) * (4 / (2*((double) i)+1));
   } /* Reduction operation is done. All threads join master thread and disband */
 
