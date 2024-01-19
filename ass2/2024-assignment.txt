@@ -87,5 +87,10 @@ done
 
 Given the previous introduction, please do the following tasks:
 
-- Compile and run a sequence of pi computations with different number of threads: from 8 threads, you should increase the number of threads in 4 for every successive simulation, until you reach 48 threads. Plot a graph to show the execution times of the computation (Y-axis) with respect to the amount of threads (X-axis). How would you explain the observed performance, considering that you have requested 32 cores from a node on Snellius?
-- Compile the code with 31250000, 62500000, 125000000, 250000000, 500000000, 1000000000 and 2000000000 numbers in the Leibniz series (changing the value of "niter") and run the pi computation only with 32 threads in all cases. Plot a graph to show the execution times of the computation (Y-axis) with respect to the amount of iterations (X-axis).
+- Compile and run a sequence of pi computations with different number of threads:
+  from 8 threads, you should increase the number of threads in 4 for every successive simulation, until you reach 48 threads. 
+  Plot a graph to show the execution times of the computation (Y-axis) with respect to the amount of threads (X-axis).
+   How would you explain the observed performance, considering that you have requested 32 cores from a node on Snellius?
+- Compile the code with 31250000, 62500000, 125000000, 250000000, 500000000, 1000000000 and 2000000000 numbers in the 
+  Leibniz series (changing the value of "niter") and run the pi computation only with 32 threads in all cases.
+  Plot a graph to show the execution times of the computation (Y-axis) with respect to the amount of iterations (X-axis).

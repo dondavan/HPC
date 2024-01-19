@@ -1,0 +1,46 @@
+OpenMP parallelism
+
+CPUS:  8
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 59.002425 seconds
+DONE 
+CPUS:  12
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 60.026860 seconds
+DONE 
+CPUS:  16
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 62.112260 seconds
+DONE 
+CPUS:  20
+CPUS:  20
+Pi estimate: 3.14159265259025088923, obtained in 61.145201 seconds
+DONE 
+CPUS:  24
+CPUS:  24
+Pi estimate: 3.14159265259062125963, obtained in 61.231284 seconds
+DONE 
+CPUS:  28
+CPUS:  28
+Pi estimate: 3.14159265259036235562, obtained in 62.159927 seconds
+DONE 
+CPUS:  32
+CPUS:  32
+Pi estimate: 3.14159265259010744842, obtained in 64.237561 seconds
+DONE 
+CPUS:  36
+CPUS:  36
+Pi estimate: 3.14159265258958830813, obtained in 64.332040 seconds
+DONE 
+CPUS:  40
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 63.675127 seconds
+DONE 
+CPUS:  44
+CPUS:  44
+Pi estimate: 3.14159265258962339118, obtained in 66.808843 seconds
+DONE 
+CPUS:  48
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 66.252752 seconds
+DONE 
