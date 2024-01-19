@@ -23,7 +23,7 @@ int main (int argc, char *argv[])
   //initialize variables
   int i;
   double pi = 0;
-  int niter = 10;
+  int niter = 50;
 
   // Get timing
   double start,end;
