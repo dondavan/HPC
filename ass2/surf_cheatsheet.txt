@@ -1,5 +1,0 @@
-sbatch --reservation=XXX ABC.sh
-
-squeue -a --me
-
-cat slurm-1234567.out
