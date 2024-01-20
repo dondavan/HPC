@@ -3,10 +3,11 @@
 int main(int argc, char **argv)
 {
     struct parameters p;
+    struct results    r;
 
     read_parameters(&p, argc, argv);
 
-    simulate(&p);
+    simulate(&p,&r);
 
     return 0;
 }

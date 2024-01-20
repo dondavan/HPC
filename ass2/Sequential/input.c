@@ -1,6 +1,5 @@
 #include "input.h"
 #include "fail.h"
-//#include "config.h"
 #include <getopt.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -44,5 +43,5 @@ void read_parameters(struct parameters* p, int argc, char **argv)
     }
 
     if (!p->N || !p->M) die("empty grid");
-\
+
 }

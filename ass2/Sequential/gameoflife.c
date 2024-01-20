@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "gameoflife.h"
+#include "fail.h"
 
 
 #define     ALIVE   1
@@ -15,7 +16,7 @@ static void cleanup(void)
 }
 
 
-void simulate(const struct parameters *p)
+void simulate(const struct parameters *p,struct results *r)
 {
 
     printf("Parameters:\n"
@@ -31,20 +32,20 @@ void simulate(const struct parameters *p)
     /*              Setting Up Game Board             */
     /**************************************************/
     /* Allocate Memory  */
-    const size_t row = p->N + 2;
-    const size_t col = p->M + 2;
-    uint8_t(*restrict cur)[row][col] = malloc(row * col * sizeof(uint8_t));
-    uint8_t(*restrict old)[row][col] = malloc(row * col * sizeof(uint8_t));
+    const size_t row = p->N;
+    const size_t col = p->M;
+    uint8_t(*restrict cur) = malloc(row * col * sizeof(uint8_t));
+    uint8_t(*restrict old) = malloc(row * col * sizeof(uint8_t));
+    if(cur == NULL || old == NULL)die("Malloc Failed");    /* Check if malloc succeed */
 
     /* Initialize Board */
     for(size_t i = 0; i < row; i++){
         for(size_t j = 0; j < col; j++){
-            (*cur)[i][j]    = DEAD;
-            (*old)[i][j]    = DEAD;
+            cur[i + j]    = DEAD;
+            old[i + j]    = DEAD;
         }
     }
     
-
 
     /**************************************************/
     /*                  Run Iteration                 */
@@ -62,26 +63,26 @@ void simulate(const struct parameters *p)
                 num_alive_neighbour = 0;
                 
                 /* Count Alive Neighbours Around Current Cell */
-                num_alive_neighbour = (*old)[i_row-1][j_col-1] + (*old)[i_row-1][j_col] + (*old)[i_row-1][j_col+1] + 
-                                      (*old)[i_row][j_col-1]   +                        + (*old)[i_row][j_col+1]   +
-                                      (*old)[i_row+1][j_col-1] + (*old)[i_row+1][j_col] + (*old)[i_row+1][j_col+1] ;
+                num_alive_neighbour = old[i_row-1 + j_col-1] + old[i_row-1 + j_col] + old[i_row-1 + j_col+1] + 
+                                      old[i_row + j_col-1]   +                      + old[i_row + j_col+1]   +
+                                      old[i_row+1 + j_col-1] + old[i_row+1 + j_col] + old[i_row+1 + j_col+1] ;
 
                 /* Apply Rules */
                 /* 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation. */
                 if(num_alive_neighbour < 2){
-                    (*new)[i_row][j_col] = DEAD;
+                    cur[i_row + j_col] = DEAD;
                 }
                 /* 2. Any live cell with two or three live neighbours lives on to the next generation.  */
-                if((*old)[i_row][j_col] == ALIVE && (num_alive_neighbour == 2 || num_alive_neighbour == 3)){
-                    (*new)[i_row][j_col] = ALIVE;
+                if(old[i_row + j_col] == ALIVE && (num_alive_neighbour == 2 || num_alive_neighbour == 3)){
+                    cur[i_row + j_col] = ALIVE;
                 }
                 /* 3. Any live cell with more than three live neighbours dies, as if by overpopulation. */
                 if(num_alive_neighbour > 3){
-                    (*new)[i_row][j_col] = DEAD;
+                    cur[i_row + j_col] = DEAD;
                 }
                 /* 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction. */
-                if((*old)[i_row][j_col] == DEAD && num_alive_neighbour == 3){
-                    (*new)[i_row][j_col] = ALIVE;
+                if(old[i_row + j_col] == DEAD && num_alive_neighbour == 3){
+                    cur[i_row + j_col] = ALIVE;
                 }
 
             }
@@ -93,6 +94,16 @@ void simulate(const struct parameters *p)
             cur = old;
             old = tmp;
         }
+
+    }
+
+    /* Output Board for Report*/
+    {
+        r->niter    = iter;
+        r->row      = p->N;
+        r->col      = p->M;
+        r->board    = old;
+        report_results(r);
     }
 
 
