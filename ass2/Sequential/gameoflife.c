@@ -60,8 +60,8 @@ void simulate(const struct parameters *p,struct results *r)
         /* Iterate Over Cells */
         for(i_row = row_start; i_row < row_end; i_row++){
             for(j_col = col_start; j_col < col_end; j_col++){
+
                 num_alive_neighbour = 0;
-                
                 /* Count Alive Neighbours Around Current Cell */
                 num_alive_neighbour = old[i_row-1 + j_col-1] + old[i_row-1 + j_col] + old[i_row-1 + j_col+1] + 
                                       old[i_row + j_col-1]   +                      + old[i_row + j_col+1]   +
