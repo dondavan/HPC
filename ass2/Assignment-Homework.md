@@ -9,6 +9,7 @@
 - Implement Game of Life as described in  https://conwaylife.com/wiki/Conway%27s_Game_of_Life
 on a finite grid with a border of permanently dead cells. Parallelize it using OpenMP and/or MPI.
 
+
 - Code should be of decent quality: documented, commented, proper error handling,
   proper use of the C language
 

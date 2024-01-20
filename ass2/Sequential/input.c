@@ -43,15 +43,6 @@ void read_parameters(struct parameters* p, int argc, char **argv)
         }
     }
 
-    printf("Parameters:\n"
-           "  -n %zu # number of rows\n"
-           "  -m %zu # number of columns\n"
-           "  -i %zu # maximum number of iterations\n"
-           "  -k %zu # reduction period\n"
-           "  -p %zu # number of threads (if applicable)\n",
-           p->N, p->M, p->maxiter, p->period,
-           p->nthreads);
-
     if (!p->N || !p->M) die("empty grid");
 \
 }
