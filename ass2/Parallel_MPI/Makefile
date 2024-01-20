@@ -7,7 +7,7 @@ UNAME := $(shell uname)
 ifeq ($(UNAME), Darwin)
 	CC=clang -Xpreprocessor
 else
-	CC=gcc
+	CC=mpicc
 endif
 
 INCLUDES=-I../Include
