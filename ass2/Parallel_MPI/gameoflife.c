@@ -20,15 +20,6 @@ static void cleanup(void)
 void simulate(const struct parameters *p,struct results *r)
 {
 
-    printf("Parameters:\n"
-    "  -n %zu # number of rows\n"
-    "  -m %zu # number of columns\n"
-    "  -i %zu # maximum number of iterations\n"
-    "  -k %zu # reduction period\n"
-    "  -p %zu # number of threads (if applicable)\n",
-    p->N, p->M, p->maxiter, p->period,
-    p->nthreads);
-
     /**************************************************/
     /*              Setting Up Game Board             */
     /**************************************************/
@@ -51,21 +42,29 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     /*                MPI Initialisation              */
     /**************************************************/
-    int MPI_rank,MPI_world_size;
+    size_t MPI_rank, MPI_world_size;
     MPI_Init(NULL, NULL);
     MPI_Comm_rank(MPI_COMM_WORLD, &MPI_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &MPI_world_size);
     
-    printf("My rank: %d\n",MPI_rank);
+    /* Distribute Data Through Row Distribution */
+    size_t chuck_size;
+    size_t row_start, row_end, col_start, col_end;
+    chuck_size = row / MPI_world_size;
+
+    /* Assign Cell Bounday for Each Node */
+    MPI_rank == 0 ?                 row_start = 1       : row_start = MPI_rank * chuck_size + 1;      /* Tight Boundary */
+    MPI_rank == MPI_world_size -1 ? row_end   = row -1  : row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
+    col_start   = 1;
+    col_end     = col-1;    /* Border with permant DEAD cell, so we don't iterate over them*/
+
+    printf("My rank: %d, Row start: %d, Row end:%d \n",MPI_rank,row_start,row_end);
 
     /**************************************************/
     /*                  Run Iteration                 */
     /**************************************************/
-    size_t iter,i_row,j_col;
+    size_t iter, i_row, j_col;
     size_t num_alive_neighbour;
-    size_t row_start = 1;   size_t row_end  = row-1;    /* Border with permant DEAD cell, so we don't iterate over them*/
-    size_t col_start = 1;   size_t col_end  = col-1;    /* Border with permant DEAD cell, so we don't iterate over them*/
-
     for(iter = 0; iter < p->maxiter; iter ++){
 
         /* Iterate Over Cells */

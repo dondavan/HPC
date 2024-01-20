@@ -13,7 +13,7 @@ struct parameters {
 
     /* number of iterations for the periodic reduction */
     size_t period;
-
+    
     /* number of threads */
     size_t nthreads;
 };
