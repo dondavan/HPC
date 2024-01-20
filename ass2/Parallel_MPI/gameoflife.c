@@ -42,7 +42,7 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     /*                MPI Initialisation              */
     /**************************************************/
-    size_t MPI_rank, MPI_world_size;
+    int MPI_rank, MPI_world_size;
     MPI_Init(NULL, NULL);
     MPI_Comm_rank(MPI_COMM_WORLD, &MPI_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &MPI_world_size);
@@ -53,10 +53,11 @@ void simulate(const struct parameters *p,struct results *r)
     chuck_size = row / MPI_world_size;
 
     /* Assign Cell Bounday for Each Node */
-    MPI_rank == 0 ?                 row_start = 1       : row_start = MPI_rank * chuck_size + 1;      /* Tight Boundary */
-    MPI_rank == MPI_world_size -1 ? row_end   = row -1  : row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
-    col_start   = 1;
-    col_end     = col-1;    /* Border with permant DEAD cell, so we don't iterate over them*/
+    row_start = MPI_rank * chuck_size + 1;      /* Tight Boundary */
+    row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
+    col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
+    if(MPI_rank == 0)row_start=1;                   /* Border with permant DEAD cell, so we don't iterate over them*/
+    if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
 
     printf("My rank: %d, Row start: %d, Row end:%d \n",MPI_rank,row_start,row_end);
 
