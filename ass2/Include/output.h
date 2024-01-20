@@ -4,6 +4,7 @@
 #include "input.h"
 #include <stddef.h>
 #include <stdlib.h>
+#include <stdint.h>
 
 /* Reporting  */
 struct results {
