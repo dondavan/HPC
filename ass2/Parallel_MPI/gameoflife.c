@@ -20,7 +20,7 @@ static void cleanup(void)
 void simulate(const struct parameters *p,struct results *r)
 {
 
-    /**************************************************/
+        /**************************************************/
     /*              Setting Up Game Board             */
     /**************************************************/
     /* Allocate Memory  */
@@ -38,10 +38,10 @@ void simulate(const struct parameters *p,struct results *r)
         }
     }
     /* Read-in Initial Board*/
-    read_board("input/beehive.txt", row, col, 3, 3, old);
+    read_board(p->input_fname, row, col, 3, 3, old);
     /* Output Board for Report*/
     {
-        r->niter    = 0;
+        r->niter    = 99;
         r->row      = p->N;
         r->col      = p->M;
         r->board    = old;
