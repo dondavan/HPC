@@ -79,10 +79,27 @@ void simulate(const struct parameters *p,struct results *r)
     
     for(iter = 0; iter < p->maxiter; iter ++){
 
-        /* Iterate Over Cells */
-        for(i_row = row_start; i_row < row_end; i_row++){
-            for(j_col = col_start; j_col < col_end; j_col++){
+        /* Communicating with other nodes*/
+        size_t prev = MPI_rank-1;
+        size_t next = MPI_rank+1;
+        MPI_Status stats[4];
+        MPI_Request reqs[4];
 
+        /* Receive Lower row_start-1 And row_end+1 */
+        if(MPI_rank!=0)                 MPI_Isend(old[row_start*col],col,MPI_BYTE,prev,1,MPI_COMM_WORLD, &reqs[0]);
+        if(MPI_rank!=MPI_world_size-1)  MPI_Isend(old[row_end*col]  ,col,MPI_BYTE,next,2,MPI_COMM_WORLD, &reqs[1]);
+                
+        /* Sync 'old' Cells */
+        if(MPI_rank!=0)                 MPI_Irecv(old[(row_start-1)*col],col,MPI_BYTE,prev,2,MPI_COMM_WORLD, &reqs[2]);
+        if(MPI_rank!=MPI_world_size-1)  MPI_Irecv(old[(row_end+1)*col]  ,col,MPI_BYTE,next,1,MPI_COMM_WORLD, &reqs[3]);
+        
+        MPI_Waitall(4, reqs, stats);
+
+
+        /* Iterate Over Cells */
+        for(i_row = row_start; i_row <= row_end; i_row++){
+            for(j_col = col_start; j_col <= col_end; j_col++){
+                
                 num_alive_neighbour = 0;
                 /* Count Alive Neighbours Around Current Cell */
                 num_alive_neighbour = old[(i_row-1)*col + j_col-1] + old[(i_row-1)*col + j_col] + old[(i_row-1)*col + j_col+1] + 
@@ -122,7 +139,8 @@ void simulate(const struct parameters *p,struct results *r)
             cur = old;
             old = tmp;
         }
-
+        
+        MPI_Barrier(MPI_COMM_WORLD);
     }
 
     /* Output Board for Report*/
