@@ -33,9 +33,19 @@ void simulate(const struct parameters *p,struct results *r)
     /* Initialize Board */
     for(size_t i = 0; i < row; i++){
         for(size_t j = 0; j < col; j++){
-            cur[i + j]    = DEAD;
-            old[i + j]    = DEAD;
+            cur[i*col + j]    = DEAD;
+            old[i*col + j]    = DEAD;
         }
+    }
+    /* Read-in Initial Board*/
+    read_board("input/beehive.txt", row, col, old);
+    /* Output Board for Report*/
+    {
+        r->niter    = 0;
+        r->row      = p->N;
+        r->col      = p->M;
+        r->board    = old;
+        report_results(r);
     }
 
 
@@ -66,6 +76,7 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     size_t iter, i_row, j_col;
     size_t num_alive_neighbour;
+    
     for(iter = 0; iter < p->maxiter; iter ++){
 
         /* Iterate Over Cells */
@@ -74,26 +85,26 @@ void simulate(const struct parameters *p,struct results *r)
 
                 num_alive_neighbour = 0;
                 /* Count Alive Neighbours Around Current Cell */
-                num_alive_neighbour = old[i_row-1 + j_col-1] + old[i_row-1 + j_col] + old[i_row-1 + j_col+1] + 
-                                      old[i_row + j_col-1]   +                      + old[i_row + j_col+1]   +
-                                      old[i_row+1 + j_col-1] + old[i_row+1 + j_col] + old[i_row+1 + j_col+1] ;
+                num_alive_neighbour = old[(i_row-1)*col + j_col-1] + old[(i_row-1)*col + j_col] + old[(i_row-1)*col + j_col+1] + 
+                                      old[(i_row)*col + j_col-1]   +                            + old[(i_row)*col + j_col+1]   +
+                                      old[(i_row+1)*col + j_col-1] + old[(i_row+1)*col + j_col] + old[(i_row+1)*col + j_col+1] ;
 
                 /* Apply Rules */
                 /* 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation. */
                 if(num_alive_neighbour < 2){
-                    cur[i_row + j_col] = DEAD;
+                    cur[i_row*col + j_col] = DEAD;
                 }
                 /* 2. Any live cell with two or three live neighbours lives on to the next generation.  */
-                if(old[i_row + j_col] == ALIVE && (num_alive_neighbour == 2 || num_alive_neighbour == 3)){
-                    cur[i_row + j_col] = ALIVE;
+                if(old[i_row*col + j_col] == ALIVE && (num_alive_neighbour == 2 || num_alive_neighbour == 3)){
+                    cur[i_row*col + j_col] = ALIVE;
                 }
                 /* 3. Any live cell with more than three live neighbours dies, as if by overpopulation. */
                 if(num_alive_neighbour > 3){
-                    cur[i_row + j_col] = DEAD;
+                    cur[i_row*col + j_col] = DEAD;
                 }
                 /* 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction. */
-                if(old[i_row + j_col] == DEAD && num_alive_neighbour == 3){
-                    cur[i_row + j_col] = ALIVE;
+                if(old[i_row*col + j_col] == DEAD && num_alive_neighbour == 3){
+                    cur[i_row*col + j_col] = ALIVE;
                 }
 
             }

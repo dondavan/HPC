@@ -2,6 +2,7 @@
 #define INPUT_H_H
 
 #include <stddef.h>
+#include <stdint.h>
 
 /* input parameters for the program */
 struct parameters {
@@ -13,11 +14,13 @@ struct parameters {
 
     /* number of iterations for the periodic reduction */
     size_t period;
-    
+
     /* number of threads */
     size_t nthreads;
 };
  
 void read_parameters(struct parameters* p, int argc, char **argv);
+
+void read_board(const char *fname, size_t height, size_t width, uint8_t * data);
 
 #endif

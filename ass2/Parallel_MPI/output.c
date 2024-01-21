@@ -16,7 +16,7 @@ void report_results(struct results *r)
     fprintf(f, "%zu %zu\n", r->row, r->col); 
     for(size_t row = 0; row < r->row; row++){
         for(size_t col = 0; col < r->col; col++){
-            fprintf(f, "%u",(r->board)[row + col]); 
+            fprintf(f, "%u",(r->board)[row*r->col + col]); 
         }
         fprintf(f, "\n"); 
     }

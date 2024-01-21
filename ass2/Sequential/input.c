@@ -4,7 +4,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-
+#define     Alive   1
 static void usage(const char *pname)
 {
     printf("Usage: %s [OPTION]...\n"
@@ -45,3 +45,28 @@ void read_parameters(struct parameters* p, int argc, char **argv)
     if (!p->N || !p->M) die("empty grid");
 
 }
+
+/* Reading File Describing Initial Alive Cells */
+void read_board(const char *fname, size_t height, size_t width, uint8_t * data)
+{
+    FILE *f;
+    if (!(f = fopen(fname, "r"))) die("Reading Init Board File Failed..");
+
+    unsigned ncells, row, col;
+    size_t i;
+
+    /* Reading Amount of Alive Cells*/
+    if (fscanf(f, "%u", &ncells) != 1) die("Invalid number of cells");
+
+    /* Reading X,Y Axis of Cell*/
+    for (i = 0; i < ncells; ++i)
+    {
+        if (fscanf(f, "%u", &row) != 1 || fscanf(f, "%u", &col) != 1) die("Invalid Input");
+        if ( row<1 || row>height-1 || col<1 || col>width-1 ) die("Invalid Input");
+        data[row*width + col] = Alive;
+        //printf("%d %d %d\n",row,col,data[row*width + col]);
+    }
+    
+
+}
+
