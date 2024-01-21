@@ -22,10 +22,11 @@ void simulate(const struct parameters *p,struct results *r)
     printf("Parameters:\n"
     "  -n %zu # number of rows\n"
     "  -m %zu # number of columns\n"
+    "  -f %s # input file\n"
     "  -i %zu # maximum number of iterations\n"
     "  -k %zu # reduction period\n"
     "  -p %zu # number of threads (if applicable)\n",
-    p->N, p->M, p->maxiter, p->period,
+    p->N, p->M, p->input_fname, p->maxiter, p->period,
     p->nthreads);
 
     /**************************************************/
@@ -46,10 +47,10 @@ void simulate(const struct parameters *p,struct results *r)
         }
     }
     /* Read-in Initial Board*/
-    read_board("input/beehive.txt", row, col, 3, 3, old);
+    read_board(p->input_fname, row, col, 3, 3, old);
     /* Output Board for Report*/
     {
-        r->niter    = 0;
+        r->niter    = -1;
         r->row      = p->N;
         r->col      = p->M;
         r->board    = old;
@@ -66,6 +67,8 @@ void simulate(const struct parameters *p,struct results *r)
 
     for(iter = 0; iter < p->maxiter; iter ++){
 
+        printf("Iteration: %zu\n",iter);
+
         /* Iterate Over Cells */
         for(i_row = row_start; i_row < row_end; i_row++){
             for(j_col = col_start; j_col < col_end; j_col++){
@@ -76,6 +79,7 @@ void simulate(const struct parameters *p,struct results *r)
                                       old[(i_row)*col + j_col-1]   +                            + old[(i_row)*col + j_col+1]   +
                                       old[(i_row+1)*col + j_col-1] + old[(i_row+1)*col + j_col] + old[(i_row+1)*col + j_col+1] ;
 
+
                 /* Apply Rules */
                 /* 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation. */
                 if(num_alive_neighbour < 2){
@@ -84,19 +88,32 @@ void simulate(const struct parameters *p,struct results *r)
                 /* 2. Any live cell with two or three live neighbours lives on to the next generation.  */
                 if(old[i_row*col + j_col] == ALIVE && (num_alive_neighbour == 2 || num_alive_neighbour == 3)){
                     cur[i_row*col + j_col] = ALIVE;
+                    printf("Continue living ");
                 }
                 /* 3. Any live cell with more than three live neighbours dies, as if by overpopulation. */
                 if(num_alive_neighbour > 3){
-                    cur[i_row*col + j_col] = DEAD;
+                    cur[i_row*col + j_col] = DEAD;   
                 }
                 /* 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction. */
                 if(old[i_row*col + j_col] == DEAD && num_alive_neighbour == 3){
                     cur[i_row*col + j_col] = ALIVE;
+                    printf("Bring back to live ");
                 }
 
-            }
+                if(old[(i_row)*col + j_col] || cur[i_row*col + j_col])printf("%zu %zu  Neighbour: %zu,Old: %d, Current: %hhu \n", i_row,j_col, num_alive_neighbour,old[i_row*col + j_col],cur[i_row*col + j_col]);
+
+            }   
         }
 
+        if(iter == p->period)
+        {
+            r->niter    = iter;
+            r->row      = p->N;
+            r->col      = p->M;
+            r->board    = cur;
+            report_results(r);
+        }
+        printf("\n");
         /* swap old and cur board */
         {
             void *tmp = cur;
@@ -104,15 +121,7 @@ void simulate(const struct parameters *p,struct results *r)
             old = tmp;
         }
 
-    }
 
-    /* Output Board for Report*/
-    {
-        r->niter    = iter;
-        r->row      = p->N;
-        r->col      = p->M;
-        r->board    = old;
-        report_results(r);
     }
 
 

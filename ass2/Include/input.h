@@ -15,6 +15,9 @@ struct parameters {
     /* number of iterations for the periodic reduction */
     size_t period;
 
+    /* input file name */
+    char *input_fname;
+
     /* number of threads */
     size_t nthreads;
 };

@@ -12,7 +12,8 @@ static void usage(const char *pname)
            "  -n NUM     Set cylinder height to ROWS.\n"
            "  -m NUM     Set cylinder width to COLUMNS.\n"
            "  -i NUM     Set the maximum number of iterations to NUM.\n"
-           "  -k NUM     Set the reduction period to NUM.\n"
+           "  -f FILE    Read initial board from FILE.\n"
+           "  -k NUM     Set the iteration to report.\n"
            "  -p NUM     Number of threads to use (when applicable).\n"
            "  -h         Print this help.\n"
            ,pname);
@@ -29,12 +30,14 @@ void read_parameters(struct parameters* p, int argc, char **argv)
     p->maxiter = 5000;
     p->period = 10;
     p->nthreads = 1;
+    p->input_fname = "input/beehive.txt";
 
-    while ((ch = getopt(argc, argv, "hH:i:k:m:M:n:N:p:")) != -1)
+    while ((ch = getopt(argc, argv, "f:hH:i:k:m:M:n:N:p:")) != -1)
     {
         switch(ch) {
         case 'i': p->maxiter = strtol(optarg, 0, 10); break;
         case 'k': p->period = strtol(optarg, 0, 10); break;
+        case 'f': p->input_fname = optarg; break;
         case 'm': case 'M': p->M = strtol(optarg, 0, 10); break;
         case 'n': case 'N': p->N = strtol(optarg, 0, 10); break;
         case 'p': p->nthreads = strtol(optarg, 0, 10); break;
