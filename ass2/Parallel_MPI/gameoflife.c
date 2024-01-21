@@ -38,7 +38,7 @@ void simulate(const struct parameters *p,struct results *r)
         }
     }
     /* Read-in Initial Board*/
-    read_board("input/beehive.txt", row, col, old);
+    read_board("input/beehive.txt", row, col, 3, 3, old);
     /* Output Board for Report*/
     {
         r->niter    = 0;
@@ -83,8 +83,8 @@ void simulate(const struct parameters *p,struct results *r)
         for(i_row = row_start; i_row < row_end; i_row++){
             for(j_col = col_start; j_col < col_end; j_col++){
 
-                num_alive_neighbour = 0;
                 /* Count Alive Neighbours Around Current Cell */
+                num_alive_neighbour = 0;
                 num_alive_neighbour = old[(i_row-1)*col + j_col-1] + old[(i_row-1)*col + j_col] + old[(i_row-1)*col + j_col+1] + 
                                       old[(i_row)*col + j_col-1]   +                            + old[(i_row)*col + j_col+1]   +
                                       old[(i_row+1)*col + j_col-1] + old[(i_row+1)*col + j_col] + old[(i_row+1)*col + j_col+1] ;

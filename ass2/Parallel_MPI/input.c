@@ -47,12 +47,13 @@ void read_parameters(struct parameters* p, int argc, char **argv)
 }
 
 /* Reading File Describing Initial Alive Cells */
-void read_board(const char *fname, size_t height, size_t width, uint8_t * data)
+void read_board(const char *fname, size_t height, size_t width, size_t start_row, size_t start_col, uint8_t * data)
 {
     FILE *f;
     if (!(f = fopen(fname, "r"))) die("Reading Init Board File Failed..");
 
     unsigned ncells, row, col;
+    unsigned offset_row, offset_col;
     size_t i;
 
     /* Reading Amount of Alive Cells*/
@@ -62,11 +63,18 @@ void read_board(const char *fname, size_t height, size_t width, uint8_t * data)
     for (i = 0; i < ncells; ++i)
     {
         if (fscanf(f, "%u", &row) != 1 || fscanf(f, "%u", &col) != 1) die("Invalid Input");
-        if ( row<1 || row>height-1 || col<1 || col>width-1 ) die("Invalid Input");
-        data[row*width + col] = Alive;
-        //printf("%d %d %d\n",row,col,data[row*width + col]);
+
+        offset_row = row + start_row;
+        offset_col = col + start_col;
+
+        if ( offset_row<1 || offset_row>height-1 || offset_col<1 || offset_col>width-1 ) die("Invalid Cell Position");
+
+
+        data[offset_row*width + offset_col] = Alive;
     }
     
 
 }
+
+
 

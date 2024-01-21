@@ -46,7 +46,7 @@ void simulate(const struct parameters *p,struct results *r)
         }
     }
     /* Read-in Initial Board*/
-    read_board("input/beehive.txt", row, col, old);
+    read_board("input/beehive.txt", row, col, 3, 3, old);
     /* Output Board for Report*/
     {
         r->niter    = 0;

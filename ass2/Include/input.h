@@ -21,6 +21,6 @@ struct parameters {
  
 void read_parameters(struct parameters* p, int argc, char **argv);
 
-void read_board(const char *fname, size_t height, size_t width, uint8_t * data);
+void read_board(const char *fname, size_t height, size_t width, size_t start_row, size_t start_col,  uint8_t * data);
 
 #endif
