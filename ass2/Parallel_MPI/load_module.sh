@@ -2,6 +2,6 @@
 #SBATCH --partition=thin_course
 #SBATCH -t 3:00 --ntasks=16
 
-module purge
-module load 2023
-module load MPICH/4.1.2-GCC-12.3.0
+module purge \
+module load 2023 \
+module load MPICH/4.1.2-GCC-12.3.0 \
