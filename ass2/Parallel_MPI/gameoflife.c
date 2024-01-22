@@ -56,6 +56,16 @@ void simulate(const struct parameters *p,struct results *r)
     MPI_Init(NULL, NULL);
     MPI_Comm_rank(MPI_COMM_WORLD, &MPI_rank);
     MPI_Comm_size(MPI_COMM_WORLD, &MPI_world_size);
+
+    /* Communicating with other nodes*/
+    size_t prev = MPI_rank-1;
+    size_t next = MPI_rank+1;
+    MPI_Status stats[4];
+    MPI_Request reqs[4];
+    char * send_buf_1 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
+    char * send_buf_2 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
+    char * recv_buf_1 = malloc(col * sizeof(char)); /* Buffer for MPI recv*/
+    char * recv_buf_2 = malloc(col * sizeof(char)); /* Buffer for MPI recv*/
     
     /* Distribute Data Through Row Distribution */
     size_t chuck_size;
@@ -76,16 +86,8 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     size_t iter, i_row, j_col,j;
     size_t num_alive_neighbour;
-
-    /* Communicating with other nodes*/
-    size_t prev = MPI_rank-1;
-    size_t next = MPI_rank+1;
-    MPI_Status stats[4];
-    MPI_Request reqs[4];
-    char * send_buf_1 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
-    char * send_buf_2 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
-    char * recv_buf_1 = malloc(col * sizeof(char)); /* Buffer for MPI recv*/
-    char * recv_buf_2 = malloc(col * sizeof(char)); /* Buffer for MPI recv*/
+    double starttime, endtime;
+    starttime = MPI_Wtime();
     
     for(iter = 0; iter < p->maxiter; iter ++){
 
@@ -155,6 +157,9 @@ void simulate(const struct parameters *p,struct results *r)
         MPI_Barrier(MPI_COMM_WORLD);
     }
 
+    endtime   = MPI_Wtime();
+    printf("That took %f seconds\n",endtime-starttime);
+    
     if(MPI_rank==0)
     /* Output Board for Report*/
     for(i_row = 0; i_row < row; i_row++){
