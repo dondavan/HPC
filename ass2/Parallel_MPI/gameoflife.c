@@ -162,7 +162,7 @@ void simulate(const struct parameters *p,struct results *r)
     }
 
     endtime   = MPI_Wtime();
-    printf("That took %f seconds\n",endtime-starttime);
+    
     
     for(int i =0; i< MPI_rank)
     {
@@ -175,6 +175,7 @@ void simulate(const struct parameters *p,struct results *r)
                 printf("\n");
             }
     }
+    printf("That took %f seconds\n",endtime-starttime);
     /* Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
