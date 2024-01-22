@@ -171,8 +171,8 @@ void simulate(const struct parameters *p,struct results *r)
 
         char * gather_partition = malloc(row * col * sizeof(char));
         size_t p = 0;   /* Sequential Pointer */
-        for(i_row = 0; i_row < row_end; i_row++){
-            for(j_col = 0; j_col < col_end; j_col++){
+        for(i_row = 0; i_row < row; i_row++){
+            for(j_col = 0; j_col < col; j_col++){
                 gather_partition[p] = old[(i_row)*col + j_col];
                 printf("%d",gather_partition[p]);
                 p++;
