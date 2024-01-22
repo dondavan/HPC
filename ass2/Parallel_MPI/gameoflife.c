@@ -165,20 +165,56 @@ void simulate(const struct parameters *p,struct results *r)
     endtime   = MPI_Wtime();
     
     
-    for(int i =0; i< MPI_rank;i++)
-    {
-        if(MPI_rank!=i)sleep(1);
-        /* Output Board for Report*/
-        else{
+    
+    /* Gather Cells From Other Node to Master Node */
+    if(MPI_rank != 0){
+
+        char * gather_partition = malloc(row * col * sizeof(char));
+        size_t p = 0;   /* Sequential Pointer */
+        for(i_row = 0; i_row < row_end; i_row++){
+            for(j_col = 0; j_col < col_end; j_col++){
+                gather_partition[p] = old[(i_row)*col + j_col];
+                p++;
+            }
+        
+        }
+        MPI_Send(gather_partition, row * col, MPI_BYTE, 0, MPI_rank, MPI_COMM_WORLD);
+
+    }
+    else{
+        char * gather_partition = malloc(row * col * sizeof(char));
+        MPI_Status stats;
+        size_t p;   /* Sequential Pointer */
+        for(size_t target_rank = 1; target_rank < MPI_world_size; target_rank++){
+            MPI_Recv(gather_partition,row * col, MPI_BYTE, target_rank, target_rank, MPI_COMM_WORLD,&stats);
+
+            row_start = MPI_rank * chuck_size + 1;      /* Tight Boundary */
+            row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
+            col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
+            if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
+
+            /* Iterate Over Cells */
+            p = 0;
             for(i_row = row_start; i_row <= row_end; i_row++){
-                for(j_col = 0; j_col < col; j_col++){
-                    printf("%hhu",old[i_row*col + j_col]);  
-                    }
-                printf("\n");
+                for(j_col = col_start; j_col <= col_end; j_col++){
+                    old[(i_row)*col + j_col] = gather_partition[p];
+                    p++;
+                }
             }
         }
+
     }
-    printf("That took %f seconds\n",endtime-starttime);
+
+
+    if(MPI_rank == 0) {
+        printf("That took %f seconds\n",endtime-starttime);
+        for (int i = 0; i < row ; i++){
+            for(int j = 0; j < col; j++){
+                printf("%hhu",old[i*col +j]);
+            }
+            printf("\n");
+        }
+    }
     /* Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
