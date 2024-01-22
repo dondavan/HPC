@@ -105,7 +105,8 @@ void simulate(const struct parameters *p,struct results *r)
             old[(row_end+1)*col   + j] = recv_buf_2[j];
         }
 
-        MPI_Waitall(4, reqs, stats);
+        if(MPI_rank!=0)                 MPI_Wait(&reqs[2],&stats[2]);
+        if(MPI_rank!=MPI_world_size-1)  MPI_Wait(&reqs[3],&stats[3]);
 
 
         /* Iterate Over Cells */
