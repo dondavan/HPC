@@ -174,8 +174,10 @@ void simulate(const struct parameters *p,struct results *r)
         for(i_row = 0; i_row < row_end; i_row++){
             for(j_col = 0; j_col < col_end; j_col++){
                 gather_partition[p] = old[(i_row)*col + j_col];
+                printf("%d",gather_partition[p]);
                 p++;
             }
+            printf("\n");
         
         }
         MPI_Send(gather_partition, row * col, MPI_BYTE, 0, MPI_rank, MPI_COMM_WORLD);
@@ -198,10 +200,10 @@ void simulate(const struct parameters *p,struct results *r)
             for(i_row = row_start; i_row <= row_end; i_row++){
                 for(j_col = col_start; j_col <= col_end; j_col++){
                     old[(i_row)*col + j_col] = gather_partition[p];
-                    printf("%d",gather_partition[p]);
+                    
                     p++;
                 }
-                printf("\n");
+                
             }
         }
 
