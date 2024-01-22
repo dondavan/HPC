@@ -193,17 +193,15 @@ void simulate(const struct parameters *p,struct results *r)
             col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
             if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
 
-            /* Iterate Over Cells */
-            p = 0;
-            for(i_row = row_start; i_row <= row_end; i_row++){
-                for(j_col = col_start; j_col <= col_end; j_col++){
-                    old[(i_row)*col + j_col] = gather_partition[(i_row)*col + j_col];
-                    printf("%d",gather_partition[(i_row)*col + j_col]);
+            for(i_row = 0; i_row < row; i_row++){
+                for(j_col = 0; j_col < col; j_col++){
+                    gather_partition[p] = old[(i_row)*col + j_col];
+                    printf("%d",gather_partition[p]);
                     p++;
                 }
                 printf("\n");
-                
             }
+            
         }
 
     }
