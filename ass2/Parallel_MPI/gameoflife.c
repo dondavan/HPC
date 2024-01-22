@@ -20,7 +20,7 @@ static void cleanup(void)
 void simulate(const struct parameters *p,struct results *r)
 {
 
-        /**************************************************/
+    /**************************************************/
     /*              Setting Up Game Board             */
     /**************************************************/
     /* Allocate Memory  */
@@ -107,23 +107,20 @@ void simulate(const struct parameters *p,struct results *r)
 
         if(MPI_rank!=0)                 MPI_Wait(&reqs[2],&stats[2]);
         if(MPI_rank!=MPI_world_size-1)  MPI_Wait(&reqs[3],&stats[3]);
-
+        if(MPI_rank==1)for(int i =0 ;i <col;i++) printf("%d",recv_buf_1[i]);
 
         
-
-        /* swap old and cur board */
-        {
-            void *tmp = cur;
-            cur = old;
-            old = tmp;
-        }
         
         MPI_Barrier(MPI_COMM_WORLD);
     }
 
     printf("From %d \n",MPI_rank); 
     /* Output Board for Report*/
-    
+    for(i_row = row_start; i_row <= row_end; i_row++){
+            for(j_col = col_start; j_col <= col_end; j_col++){
+              printf("%hhu",old[i_row*col + j_col]);  
+            }
+        }
     /* Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
@@ -139,5 +136,9 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     free(old);
     free(cur);
+    free(send_buf_1);
+    free(send_buf_2);
+    free(recv_buf_1);
+    free(recv_buf_2);
     atexit(cleanup);
 }
