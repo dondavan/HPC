@@ -153,12 +153,20 @@ void simulate(const struct parameters *p,struct results *r)
             cur = old;
             old = tmp;
         }
+        
     }
 
     endtime   = MPI_Wtime();
     printf("That took %f seconds\n",endtime-starttime);
     
-    
+    if(MPI_rank==0)
+    /* Output Board for Report*/
+    for(i_row = 0; i_row < row; i_row++){
+            for(j_col = 0; j_col < col; j_col++){
+              printf("%hhu",old[i_row*col + j_col]);  
+            }
+            printf("\n");
+        }
     /* Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
