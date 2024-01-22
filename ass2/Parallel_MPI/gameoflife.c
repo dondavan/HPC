@@ -27,8 +27,8 @@ void simulate(const struct parameters *p,struct results *r)
     /* Allocate Memory  */
     const size_t row = p->N;
     const size_t col = p->M;
-    uint8_t(*restrict cur) = malloc(row * col * sizeof(uint8_t));
-    uint8_t(*restrict old) = malloc(row * col * sizeof(uint8_t));
+    char(*restrict cur) = malloc(row * col * sizeof(char));
+    char(*restrict old) = malloc(row * col * sizeof(char));
     if(cur == NULL || old == NULL)die("Malloc Failed");    /* Check if malloc succeed */
 
     /* Initialize Board */
