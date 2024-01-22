@@ -1,6 +1,7 @@
 #include <time.h>
 #include <math.h>
 #include <mpi.h>
+#include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
 #include "gameoflife.h"
@@ -164,7 +165,7 @@ void simulate(const struct parameters *p,struct results *r)
     endtime   = MPI_Wtime();
     
     
-    for(int i =0; i< MPI_rank)
+    for(int i =0; i< MPI_rank;i++)
     {
         if(MPI_rank!=i)sleep(1);
         /* Output Board for Report*/
