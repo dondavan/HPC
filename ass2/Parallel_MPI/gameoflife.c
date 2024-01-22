@@ -76,18 +76,24 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     size_t iter, i_row, j_col;
     size_t num_alive_neighbour;
+
+    /* Communicating with other nodes*/
+    size_t prev = MPI_rank-1;
+    size_t next = MPI_rank+1;
+    MPI_Status stats[4];
+    MPI_Request reqs[4];
+    char * send_buf_1 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
+    char * send_buf_2 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
     
     for(iter = 0; iter < p->maxiter; iter ++){
 
-        /* Communicating with other nodes*/
-        size_t prev = MPI_rank-1;
-        size_t next = MPI_rank+1;
-        MPI_Status stats[4];
-        MPI_Request reqs[4];
-
+        for(size_t j = 0; j < col; j++){
+            send_buf_1[j] = old[row_start*col + j];
+            send_buf_2[j] = old[row_end*col   + j];
+        }
         /* Receive Lower row_start-1 And row_end+1 */
-        if(MPI_rank!=0)                 MPI_Isend(old[row_start*col],col,MPI_BYTE,prev,1,MPI_COMM_WORLD, &reqs[0]);
-        if(MPI_rank!=MPI_world_size-1)  MPI_Isend(old[row_end*col]  ,col,MPI_BYTE,next,2,MPI_COMM_WORLD, &reqs[1]);
+        if(MPI_rank!=0)                 MPI_Isend(send_buf_1,col,MPI_BYTE,prev,1,MPI_COMM_WORLD, &reqs[0]);
+        if(MPI_rank!=MPI_world_size-1)  MPI_Isend(send_buf_2,col,MPI_BYTE,next,2,MPI_COMM_WORLD, &reqs[1]);
                 
         /* Sync 'old' Cells */
         if(MPI_rank!=0)                 MPI_Irecv(old[(row_start-1)*col],col,MPI_BYTE,prev,2,MPI_COMM_WORLD, &reqs[2]);
