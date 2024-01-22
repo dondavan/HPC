@@ -112,7 +112,7 @@ void simulate(const struct parameters *p,struct results *r)
         
         
         MPI_Barrier(MPI_COMM_WORLD);
-        printf("\n");
+        if(MPI_rank==1)printf("\n");
     }
 
     printf("From %d \n",MPI_rank); 
