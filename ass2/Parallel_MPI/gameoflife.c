@@ -150,85 +150,8 @@ void simulate(const struct parameters *p,struct results *r)
             }
         }
 
-        /* Compute Halo 
-        {
-
-            if(MPI_rank!=0){
-                i_row = row_start;
-                MPI_Wait(&reqs[2],&stats[2]);
-                for(j_col = col_start; j_col <= col_end; j_col++){
-                    num_alive_neighbour = 0;
-                    /* Count Alive Neighbours Around Current Cell */
-                    num_alive_neighbour = recv_buf_1[j_col-1]        + recv_buf_1[j_col]          + recv_buf_1[j_col+1]          + 
-                                        old[(i_row  )*col + j_col-1] +                            + old[(i_row  )*col + j_col+1] +
-                                        old[(i_row+1)*col + j_col-1] + old[(i_row+1)*col + j_col] + old[(i_row+1)*col + j_col+1] ;
-
-
-                    cur[i_row*col + j_col] = DEAD;
-                    /* Apply Rules */
-                    if(old[i_row*col + j_col] == ALIVE){
-                        /* 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation. */
-                        if(num_alive_neighbour < 2){
-                            cur[i_row*col + j_col] = DEAD;
-                        }
-                        /* 3. Any live cell with more than three live neighbours dies, as if by overpopulation. */
-                        else if(num_alive_neighbour > 3){
-                            cur[i_row*col + j_col] = DEAD;
-                        }
-                        /* 2. Any live cell with two or three live neighbours lives on to the next generation.  */
-                        else{
-                            cur[i_row*col + j_col] = ALIVE;
-                        }
-                    }
-                    else{
-                        /* 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction. */
-                        if(num_alive_neighbour == 3){
-                            cur[i_row*col + j_col] = ALIVE;
-                        }
-                    }
-                }
-            }
-
-            if(MPI_rank!=MPI_world_size-1){
-                i_row = row_end;
-                MPI_Wait(&reqs[3],&stats[3]);
-                for(j_col = col_start; j_col <= col_end; j_col++){
-                    
-                    num_alive_neighbour = 0;
-                    /* Count Alive Neighbours Around Current Cell */
-                    num_alive_neighbour = old[(i_row-1)*col + j_col-1] + old[(i_row-1)*col + j_col] + old[(i_row-1)*col + j_col+1] + 
-                                          old[(i_row  )*col + j_col-1] +                            + old[(i_row  )*col + j_col+1] +
-                                          recv_buf_2[j_col-1]          + recv_buf_2[j_col]          + recv_buf_2[j_col+1]          ;
-
-
-                    cur[i_row*col + j_col] = DEAD;
-                    /* Apply Rules */
-                    if(old[i_row*col + j_col] == ALIVE){
-                        /* 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation. */
-                        if(num_alive_neighbour < 2){
-                            cur[i_row*col + j_col] = DEAD;
-                        }
-                        /* 3. Any live cell with more than three live neighbours dies, as if by overpopulation. */
-                        else if(num_alive_neighbour > 3){
-                            cur[i_row*col + j_col] = DEAD;
-                        }
-                        /* 2. Any live cell with two or three live neighbours lives on to the next generation.  */
-                        else{
-                            cur[i_row*col + j_col] = ALIVE;
-                        }
-                    }
-                    else{
-                        /* 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction. */
-                        if(num_alive_neighbour == 3){
-                            cur[i_row*col + j_col] = ALIVE;
-                        }
-                    }
-                }
-            }
-
-
-        }
-        */
+        
+        
 
 
         /* swap old and cur board */
