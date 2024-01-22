@@ -139,9 +139,5 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     free(old);
     free(cur);
-    free(send_buf_1);
-    free(send_buf_2);
-    free(recv_buf_1);
-    free(recv_buf_2);
     atexit(cleanup);
 }
