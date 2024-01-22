@@ -101,11 +101,11 @@ void simulate(const struct parameters *p,struct results *r)
         if(MPI_rank!=0)                 MPI_Irecv(recv_buf_1,col,MPI_BYTE,prev,2,MPI_COMM_WORLD, &reqs[2]);
         if(MPI_rank!=MPI_world_size-1)  MPI_Irecv(recv_buf_2,col,MPI_BYTE,next,1,MPI_COMM_WORLD, &reqs[3]);
 
-        if(MPI_rank!=0)                 for(j = 0; j < col; j++)old[(row_start-1)*col + j] = recv_buf_1[j];
-        if(MPI_rank!=MPI_world_size-1)  for(j = 0; j < col; j++)old[(row_end+1)*col   + j] = recv_buf_2[j];
-
         if(MPI_rank!=0)                 MPI_Wait(&reqs[2],&stats[2]);
         if(MPI_rank!=MPI_world_size-1)  MPI_Wait(&reqs[3],&stats[3]);
+
+        if(MPI_rank!=0)                 for(j = 0; j < col; j++)old[(row_start-1)*col + j] = recv_buf_1[j];
+        if(MPI_rank!=MPI_world_size-1)  for(j = 0; j < col; j++)old[(row_end+1)*col   + j] = recv_buf_2[j];
 
 
         /* Iterate Over Cells */
