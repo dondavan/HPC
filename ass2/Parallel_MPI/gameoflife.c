@@ -153,8 +153,6 @@ void simulate(const struct parameters *p,struct results *r)
             cur = old;
             old = tmp;
         }
-        
-        MPI_Barrier(MPI_COMM_WORLD);
     }
 
     endtime   = MPI_Wtime();
