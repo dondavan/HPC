@@ -23,10 +23,10 @@ endif
 all: $(PRJ)
 
 $(PRJ): $(OBJ)
-	$(CC) $(CFLAGS) $(INCLUDES) $(OBJ) -o $@
+	$(CC) $(CFLAGS) $(INCLUDES) $(OBJ) -o -lm $@
 
 %.o: %.c
-	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o $@ $(LIB)	
+	$(CC) $(CFLAGS) $(INCLUDES) -c $< -o -lm $@ $(LIB)	
 
 clean:
 	-rm -f $(OBJ) $(PRJ)
