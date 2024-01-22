@@ -9,17 +9,18 @@ int main (int argc, char *argv[])
     //initialize variables
     int i;
     double pi = 0;
-    int niter = 10000000;
+    int niter = 100000000;
 
     // Get timing
     double start,end;
-    start=omp_get_wtime();
     omp_set_num_threads(8);
 
     #pragma omp parallel
     {
         printf("Hello from process: %d\n", omp_get_thread_num());
     }
+
+    start=omp_get_wtime();
     // Calculate PI using Leibnitz sum
     /* Fork a team of threads */
     #pragma omp parallel for reduction(+ : pi)
