@@ -4,9 +4,11 @@
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:10:00
-#SBATCH --partition=thin_course
+#SBATCH --mem=100M
+#SBATCH --partition=gpu_course
 #SBATCH --output=pi_%j.out
 #SBATCH --error=pi_%j.err
+
 
 module purge
 module load 2022
