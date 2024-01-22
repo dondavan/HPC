@@ -74,7 +74,7 @@ void simulate(const struct parameters *p,struct results *r)
     /**************************************************/
     /*                  Run Iteration                 */
     /**************************************************/
-    size_t iter, i_row, j_col;
+    size_t iter, i_row, j_col,j;
     size_t num_alive_neighbour;
 
     /* Communicating with other nodes*/
@@ -84,20 +84,26 @@ void simulate(const struct parameters *p,struct results *r)
     MPI_Request reqs[4];
     char * send_buf_1 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
     char * send_buf_2 = malloc(col * sizeof(char)); /* Buffer for MPI send*/
+    char * recv_buf_1 = malloc(col * sizeof(char)); /* Buffer for MPI recv*/
+    char * recv_buf_2 = malloc(col * sizeof(char)); /* Buffer for MPI recv*/
     
     for(iter = 0; iter < p->maxiter; iter ++){
 
-        for(size_t j = 0; j < col; j++){
+        /* Send Lower row_start-1 And row_end+1 */
+        for(j = 0; j < col; j++){
             send_buf_1[j] = old[row_start*col + j];
             send_buf_2[j] = old[row_end*col   + j];
         }
-        /* Receive Lower row_start-1 And row_end+1 */
         if(MPI_rank!=0)                 MPI_Isend(send_buf_1,col,MPI_BYTE,prev,1,MPI_COMM_WORLD, &reqs[0]);
         if(MPI_rank!=MPI_world_size-1)  MPI_Isend(send_buf_2,col,MPI_BYTE,next,2,MPI_COMM_WORLD, &reqs[1]);
                 
         /* Sync 'old' Cells */
-        if(MPI_rank!=0)                 MPI_Irecv(old[(row_start-1)*col],col,MPI_BYTE,prev,2,MPI_COMM_WORLD, &reqs[2]);
-        if(MPI_rank!=MPI_world_size-1)  MPI_Irecv(old[(row_end+1)*col]  ,col,MPI_BYTE,next,1,MPI_COMM_WORLD, &reqs[3]);
+        if(MPI_rank!=0)                 MPI_Irecv(send_buf_1,col,MPI_BYTE,prev,2,MPI_COMM_WORLD, &reqs[2]);
+        if(MPI_rank!=MPI_world_size-1)  MPI_Irecv(send_buf_2,col,MPI_BYTE,next,1,MPI_COMM_WORLD, &reqs[3]);
+        for(j = 0; j < col; j++){
+            old[(row_start-1)*col + j] = send_buf_1[j];
+            old[(row_end+1)*col   + j] = send_buf_2[j];
+        }
         
         MPI_Waitall(4, reqs, stats);
 
