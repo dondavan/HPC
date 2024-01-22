@@ -17,13 +17,9 @@ module load GCCcore-11.3.0
 echo "OpenMP parallelism"
 echo
 
-for ncores in `seq 8 4 48`
-
-do
-  export OMP_NUM_THREADS=$ncores
+  export OMP_NUM_THREADS=32
 
   echo "CPUS: " $OMP_NUM_THREADS
   echo "CPUS: " $OMP_NUM_THREADS >&2
   ./pi
   echo "DONE "
-done

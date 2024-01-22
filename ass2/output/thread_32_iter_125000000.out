@@ -1,0 +1,19 @@
+OpenMP parallelism
+
+CPUS:  32
+Pi estimate: 3.14159264558957929125, obtained in 0.163087 seconds
+DONE 
+
+JOB STATISTICS
+==============
+Job ID: 4951245
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:07
+CPU Efficiency: 1.46% of 00:08:00 core-walltime
+Job Wall-clock time: 00:00:15
+Memory Utilized: 1.51 MB
+Memory Efficiency: 1.51% of 100.00 MB
