@@ -156,14 +156,21 @@ void simulate(const struct parameters *p,struct results *r)
         MPI_Barrier(MPI_COMM_WORLD);
     }
 
+    printf("From %d \n",MPI_rank); 
     /* Output Board for Report*/
+    for(i_row = row_start; i_row <= row_end; i_row++){
+            for(j_col = col_start; j_col <= col_end; j_col++){
+              printf("%hhu",old[i_row][j_col]);  
+            }
+        }
+    /* Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
         r->row      = p->N;
         r->col      = p->M;
         r->board    = old;
         report_results(r);
-    }
+    }*/
 
 
     /**************************************************/
