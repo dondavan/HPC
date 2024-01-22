@@ -161,6 +161,7 @@ void simulate(const struct parameters *p,struct results *r)
             for(j_col = col_start; j_col <= col_end; j_col++){
               printf("%hhu",old[i_row*col + j_col]);  
             }
+            printf("\n");
         }
     /* Output Board for Report
     if(MPI_rank==0){
