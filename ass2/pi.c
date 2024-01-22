@@ -25,14 +25,10 @@ int main (int argc, char *argv[])
     /* Fork a team of threads */
     #pragma omp parallel
     {
-        #pragma omp for private(i)
-        {
-            for(i = 0; i < niter; i++)
+        for(i = 0; i < niter; i++)
             {
                 pi = pi + pow(-1, i) * (4 / (2*((double) i)+1));
             } /* Reduction operation is done. All threads join master thread and disband */
-
-        }
     }
     
     // Stop timing
