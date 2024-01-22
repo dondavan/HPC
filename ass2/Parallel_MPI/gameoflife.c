@@ -160,7 +160,7 @@ void simulate(const struct parameters *p,struct results *r)
     /* Output Board for Report*/
     for(i_row = row_start; i_row <= row_end; i_row++){
             for(j_col = col_start; j_col <= col_end; j_col++){
-              printf("%hhu",old[i_row][j_col]);  
+              printf("%hhu",old[i_row*col + j_col]);  
             }
         }
     /* Output Board for Report
