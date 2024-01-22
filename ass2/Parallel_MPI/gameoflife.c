@@ -150,8 +150,6 @@ void simulate(const struct parameters *p,struct results *r)
             }
         }
 
-        
-        
 
 
         /* swap old and cur board */
@@ -166,14 +164,17 @@ void simulate(const struct parameters *p,struct results *r)
     endtime   = MPI_Wtime();
     printf("That took %f seconds\n",endtime-starttime);
     
-    if(MPI_rank==0)
-    /* Output Board for Report*/
-    for(i_row = 0; i_row < row; i_row++){
-            for(j_col = 0; j_col < col; j_col++){
-              printf("%hhu",old[i_row*col + j_col]);  
+    for(int i =0; i< MPI_rank)
+    {
+        if(MPI_rank!=i)sleep(1);
+        /* Output Board for Report*/
+        for(i_row = row_start; i_row <= row_end; i_row++){
+                for(j_col = 0; j_col < col; j_col++){
+                printf("%hhu",old[i_row*col + j_col]);  
+                }
+                printf("\n");
             }
-            printf("\n");
-        }
+    }
     /* Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
