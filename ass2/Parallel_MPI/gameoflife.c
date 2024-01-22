@@ -77,8 +77,8 @@ void simulate(const struct parameters *p,struct results *r)
     row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
     col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
 
-    if(MPI_rank == 0)row_start=0;                 /* Border with permant DEAD cell, so we don't iterate over them*/
-    if(MPI_rank == MPI_world_size-1)row_end=row;  /* Border with permant DEAD cell, so we don't iterate over them*/
+    if(MPI_rank == 0)row_start=1;                 /* Border with permant DEAD cell, so we don't iterate over them*/
+    if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
 
 
     printf("My rank: %d, Row start: %d, Row end:%d \n",MPI_rank,row_start,row_end);
@@ -105,16 +105,16 @@ void simulate(const struct parameters *p,struct results *r)
         if(MPI_rank!=0)                 MPI_Irecv(recv_buf_1,col,MPI_BYTE,prev,2,MPI_COMM_WORLD, &reqs[2]);
         if(MPI_rank!=MPI_world_size-1)  MPI_Irecv(recv_buf_2,col,MPI_BYTE,next,1,MPI_COMM_WORLD, &reqs[3]);
 
-        /*
+        
         if(MPI_rank!=0)                 MPI_Wait(&reqs[2],&stats[2]);
         if(MPI_rank!=MPI_world_size-1)  MPI_Wait(&reqs[3],&stats[3]);
 
         if(MPI_rank!=0)                 for(j = 0; j < col; j++)old[(row_start-1)*col + j] = recv_buf_1[j];
         if(MPI_rank!=MPI_world_size-1)  for(j = 0; j < col; j++)old[(row_end+1)*col   + j] = recv_buf_2[j];
-        */
+        
 
         /* Iterate Over Cells */
-        for(i_row = row_start+1; i_row < row_end; i_row++){
+        for(i_row = row_start; i_row <= row_end; i_row++){
             for(j_col = col_start; j_col <= col_end; j_col++){
                 
                 num_alive_neighbour = 0;
@@ -150,7 +150,7 @@ void simulate(const struct parameters *p,struct results *r)
             }
         }
 
-        /* Compute Halo */
+        /* Compute Halo 
         {
 
             if(MPI_rank!=0){
@@ -228,6 +228,7 @@ void simulate(const struct parameters *p,struct results *r)
 
 
         }
+        */
 
 
         /* swap old and cur board */
