@@ -109,14 +109,7 @@ void simulate(const struct parameters *p,struct results *r)
         if(MPI_rank!=MPI_world_size-1)  MPI_Wait(&reqs[3],&stats[3]);
 
 
-        /* Iterate Over Cells */
-        for(i_row = row_start; i_row <= row_end; i_row++){
-            for(j_col = col_start; j_col <= col_end; j_col++){
-                
-                
-
-            }
-        }
+        
 
         /* swap old and cur board */
         {
@@ -130,11 +123,7 @@ void simulate(const struct parameters *p,struct results *r)
 
     printf("From %d \n",MPI_rank); 
     /* Output Board for Report*/
-    for(i_row = row_start; i_row <= row_end; i_row++){
-            for(j_col = col_start; j_col <= col_end; j_col++){
-              printf("%hhu",old[i_row*col + j_col]);  
-            }
-        }
+    
     /* Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
