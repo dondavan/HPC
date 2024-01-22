@@ -76,7 +76,8 @@ void simulate(const struct parameters *p,struct results *r)
     row_start = MPI_rank * chuck_size + 1;      /* Tight Boundary */
     row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
     col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
-    if(MPI_rank == 0)row_start=0;                   /* Border with permant DEAD cell, so we don't iterate over them*/
+
+    if(MPI_rank == 0)row_start=0;                 /* Border with permant DEAD cell, so we don't iterate over them*/
     if(MPI_rank == MPI_world_size-1)row_end=row;  /* Border with permant DEAD cell, so we don't iterate over them*/
 
 
@@ -152,13 +153,13 @@ void simulate(const struct parameters *p,struct results *r)
         /* Compute Halo */
         {
 
-            i_row = row_start;
             if(MPI_rank!=0){
+                i_row = row_start;
                 MPI_Wait(&reqs[2],&stats[2]);
                 for(j_col = col_start; j_col <= col_end; j_col++){
                     num_alive_neighbour = 0;
                     /* Count Alive Neighbours Around Current Cell */
-                    num_alive_neighbour = recv_buf_1[j-1]              + recv_buf_1[j]              + recv_buf_1[j+1]              + 
+                    num_alive_neighbour = recv_buf_1[j_col-1]        + recv_buf_1[j_col]          + recv_buf_1[j_col+1]          + 
                                         old[(i_row  )*col + j_col-1] +                            + old[(i_row  )*col + j_col+1] +
                                         old[(i_row+1)*col + j_col-1] + old[(i_row+1)*col + j_col] + old[(i_row+1)*col + j_col+1] ;
 
@@ -188,16 +189,16 @@ void simulate(const struct parameters *p,struct results *r)
                 }
             }
 
-            i_row = row_end;
             if(MPI_rank!=MPI_world_size-1){
+                i_row = row_end;
                 MPI_Wait(&reqs[3],&stats[3]);
                 for(j_col = col_start; j_col <= col_end; j_col++){
                     
                     num_alive_neighbour = 0;
                     /* Count Alive Neighbours Around Current Cell */
                     num_alive_neighbour = old[(i_row-1)*col + j_col-1] + old[(i_row-1)*col + j_col] + old[(i_row-1)*col + j_col+1] + 
-                                        old[(i_row  )*col + j_col-1] +                            + old[(i_row  )*col + j_col+1] +
-                                        recv_buf_2[j-1]              + recv_buf_2[j]              + recv_buf_2[j+1]              ;
+                                          old[(i_row  )*col + j_col-1] +                            + old[(i_row  )*col + j_col+1] +
+                                          recv_buf_2[j_col-1]          + recv_buf_2[j_col]          + recv_buf_2[j_col+1]          ;
 
 
                     cur[i_row*col + j_col] = DEAD;
