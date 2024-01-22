@@ -23,12 +23,18 @@ int main (int argc, char *argv[])
     start=omp_get_wtime();
     // Calculate PI using Leibnitz sum
     /* Fork a team of threads */
-    #pragma omp parallel for reduction(+ : pi)
-    for(i = 0; i < niter; i++)
+    #pragma omp parallel
     {
-        pi = pi + pow(-1, i) * (4 / (2*((double) i)+1));
-    } /* Reduction operation is done. All threads join master thread and disband */
+        #pragma omp for 
+        {
+            for(i = 0; i < niter; i++)
+            {
+                pi = pi + pow(-1, i) * (4 / (2*((double) i)+1));
+            } /* Reduction operation is done. All threads join master thread and disband */
 
+        }
+    }
+    
     // Stop timing
     end=omp_get_wtime();
 
