@@ -2,8 +2,7 @@
 #SBATCH --job-name="pi"
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
-#SBATCH --time=00:10:00
-#SBATCH --partition=rome
+#SBATCH -p thin
 #SBATCH --output=pi_%j.out
 #SBATCH --error=pi_%j.err
 
