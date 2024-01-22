@@ -76,8 +76,9 @@ void simulate(const struct parameters *p,struct results *r)
     row_start = MPI_rank * chuck_size + 1;      /* Tight Boundary */
     row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
     col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
-    if(MPI_rank == 0)row_start=1;                   /* Border with permant DEAD cell, so we don't iterate over them*/
-    if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
+    if(MPI_rank == 0)row_start=0;                   /* Border with permant DEAD cell, so we don't iterate over them*/
+    if(MPI_rank == MPI_world_size-1)row_end=row;  /* Border with permant DEAD cell, so we don't iterate over them*/
+
 
     printf("My rank: %d, Row start: %d, Row end:%d \n",MPI_rank,row_start,row_end);
 
