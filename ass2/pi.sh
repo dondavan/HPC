@@ -1,10 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name="pi"
-#SBATCH --nodes=1
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:10:00
-#SBATCH --partition=thin_courses
+#SBATCH --partition=rome
 #SBATCH --output=pi_%j.out
 #SBATCH --error=pi_%j.err
 
