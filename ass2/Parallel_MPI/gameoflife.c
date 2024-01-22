@@ -155,7 +155,7 @@ void simulate(const struct parameters *p,struct results *r)
         MPI_Barrier(MPI_COMM_WORLD);
     }
 
-    if(MPI_rank==0)
+    if(MPI_rank==1)
     /* Output Board for Report*/
     for(i_row = row_start; i_row <= row_end; i_row++){
             for(j_col = col_start; j_col <= col_end; j_col++){
