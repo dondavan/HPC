@@ -107,6 +107,9 @@ void simulate(const struct parameters *p,struct results *r)
         if(MPI_rank!=0)                 for(j = 0; j < col; j++)old[(row_start-1)*col + j] = recv_buf_1[j];
         if(MPI_rank!=MPI_world_size-1)  for(j = 0; j < col; j++)old[(row_end+1)*col   + j] = recv_buf_2[j];
 
+        if(MPI_rank=0)for(j = 0; j < col; j++){
+            printf("%d",recv_buf_2[j]);
+        }
 
         /* Iterate Over Cells */
         for(i_row = row_start; i_row <= row_end; i_row++){
