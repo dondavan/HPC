@@ -17,7 +17,7 @@ int main (int argc, char *argv[])
 
     #pragma omp parallel
     {
-        printf(“Hello from process: %d\n”, omp_get_thread_num());
+        printf("Hello from process: %d\n", omp_get_thread_num());
     }
     // Calculate PI using Leibnitz sum
     /* Fork a team of threads */
@@ -32,5 +32,5 @@ int main (int argc, char *argv[])
 
     // Print result
     printf("Pi estimate: %.20f, obtained in %f seconds\n", pi, end-start);
-    
+
 }
