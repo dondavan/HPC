@@ -14,6 +14,7 @@ int main (int argc, char *argv[])
     // Get timing
     double start,end;
     start=omp_get_wtime();
+    omp_set_num_threads(8);
 
     #pragma omp parallel
     {
