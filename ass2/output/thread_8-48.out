@@ -1,5 +1,8 @@
 OpenMP parallelism
 
+CPUS:  1
+Pi estimate: 3.14159265258805042720, obtained in 36.418847 seconds
+DONE 
 CPUS:  8
 Pi estimate: 3.14159265258932407505, obtained in 4.691736 seconds
 DONE 
