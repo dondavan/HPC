@@ -1,0 +1,49 @@
+OpenMP parallelism
+
+CPUS:  8
+Pi estimate: 3.14159265308920998550, obtained in 10.172528 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265308897328595, obtained in 6.763460 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265308932411642, obtained in 5.143006 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265308932589278, obtained in 4.110394 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265308979707143, obtained in 3.417295 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265308993829180, obtained in 3.136694 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265309020430124, obtained in 2.677828 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265309020696577, obtained in 3.137840 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265309025093060, obtained in 3.113869 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265309013679968, obtained in 3.147438 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265309062041283, obtained in 2.898662 seconds
+DONE 
+
+JOB STATISTICS
+==============
+Job ID: 4950978
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: COMPLETED (exit code 0)
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:14:41
+CPU Efficiency: 43.70% of 00:33:36 core-walltime
+Job Wall-clock time: 00:01:03
+Memory Utilized: 1.39 MB
+Memory Efficiency: 0.00% of 56.00 GB
