@@ -15,7 +15,7 @@ module load GCCcore-11.3.0
 echo "OpenMP parallelism"
 echo
 
-for i in `seq 1 2`
+for i in `seq 1 20`
 do
     echo "======== Run : " $i
     export OMP_NUM_THREADS=32

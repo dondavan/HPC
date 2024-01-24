@@ -1,0 +1,692 @@
+OpenMP parallelism
+
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.182359 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.447021 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.602204 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.083136 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.747242 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.505185 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.331180 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958786404, obtained in 1.658174 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.725172 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962427936, obtained in 1.666018 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978148694, obtained in 1.448130 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.179777 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.471048 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.603978 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.087356 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.750107 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.508857 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.325321 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958786404, obtained in 1.733612 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981701407, obtained in 1.754960 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962339118, obtained in 1.729986 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.657683 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.148207 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.500345 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.646444 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.096950 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.752717 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.525131 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.321553 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958786404, obtained in 1.805794 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981612590, obtained in 1.566926 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962250300, obtained in 1.734572 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.713591 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.194260 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.445707 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.607220 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.102412 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.743668 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.502221 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.322642 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958830813, obtained in 1.864332 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.603572 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962294709, obtained in 1.778041 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978193103, obtained in 1.415077 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.155911 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.447908 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.604862 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.092612 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.753043 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.505086 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.324123 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958875222, obtained in 1.893596 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.764143 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962383527, obtained in 1.516369 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.691918 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.130896 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.503266 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.611283 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.084541 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.748464 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.511721 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.325831 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958830813, obtained in 1.863698 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.919486 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962250300, obtained in 1.721538 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.712024 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.130146 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979658597, obtained in 3.472530 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.627221 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.085247 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.742402 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.517111 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.322694 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958786404, obtained in 1.802171 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.690659 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962250300, obtained in 1.653926 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978148694, obtained in 1.456834 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.146730 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.450063 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.641234 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.087480 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.761989 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.521488 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.323905 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958786404, obtained in 1.884614 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981656999, obtained in 1.845995 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962250300, obtained in 1.596472 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.588944 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.159393 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.448072 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.636134 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.088048 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.762801 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.509639 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.324478 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958875222, obtained in 1.948401 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.795521 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962294709, obtained in 1.697734 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978148694, obtained in 1.657510 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.143850 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.455292 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.664816 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.087042 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.743609 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.507783 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.333195 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958830813, obtained in 1.857216 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.693714 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962250300, obtained in 1.843720 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.395027 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.207319 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.454361 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.606519 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.118317 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.761559 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.503482 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.337195 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958830813, obtained in 1.800416 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.694097 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962294709, obtained in 1.530901 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.763628 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.190650 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.447926 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.616910 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.089402 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.752276 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.537911 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.332127 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958786404, obtained in 1.927635 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.556080 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962339118, obtained in 1.646593 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.617692 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.150640 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.457868 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.619622 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.087136 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.775502 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.521342 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.376266 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958875222, obtained in 1.523628 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.561091 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962250300, obtained in 1.823533 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978148694, obtained in 1.572187 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.152485 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.485527 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.612554 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.096358 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.769116 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.507993 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.323473 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958786404, obtained in 1.789292 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.709188 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962383527, obtained in 1.924281 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.793233 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.174358 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.450404 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.641622 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.091824 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.759616 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.503114 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.331630 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958830813, obtained in 1.737897 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.640584 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962339118, obtained in 1.781000 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978059876, obtained in 1.653800 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.137335 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.467249 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.607545 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.087776 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.751769 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.512439 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.324859 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958830813, obtained in 1.815037 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.668873 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962294709, obtained in 1.920026 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978148694, obtained in 1.815487 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.135775 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.525370 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.653645 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.090009 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.745899 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.507990 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.332509 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958741995, obtained in 1.814242 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981745816, obtained in 1.767521 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962383527, obtained in 1.692118 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.596021 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.142209 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.475950 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.621060 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.091575 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.744941 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.508411 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.337035 seconds
+DONE 
+CPUS:  36
+Pi estimate: 3.14159265258958875222, obtained in 1.742459 seconds
+DONE 
+CPUS:  40
+Pi estimate: 3.14159265258981701407, obtained in 1.824699 seconds
+DONE 
+CPUS:  44
+Pi estimate: 3.14159265258962339118, obtained in 1.520582 seconds
+DONE 
+CPUS:  48
+Pi estimate: 3.14159265258978104285, obtained in 1.429696 seconds
+DONE 
+CPUS:  8
+Pi estimate: 3.14159265258932407505, obtained in 5.142224 seconds
+DONE 
+CPUS:  12
+Pi estimate: 3.14159265258979703006, obtained in 3.531168 seconds
+DONE 
+CPUS:  16
+Pi estimate: 3.14159265259020425987, obtained in 2.607911 seconds
+DONE 
+CPUS:  20
+Pi estimate: 3.14159265259025044514, obtained in 2.089069 seconds
+DONE 
+CPUS:  24
+Pi estimate: 3.14159265259062081554, obtained in 1.752863 seconds
+DONE 
+CPUS:  28
+Pi estimate: 3.14159265259036146745, obtained in 1.506981 seconds
+DONE 
+CPUS:  32
+Pi estimate: 3.14159265259010700433, obtained in 1.339531 seconds
+DONE 
+CPUS:  36
+Iteration: 1000000000
+Pi estimate: 3.14159265258958786404, obtained in 1.945232 seconds
+DONE 
+CPUS:  40
+Iteration: 1000000000
+Pi estimate: 3.14159265258981701407, obtained in 1.742178 seconds
+DONE 
+CPUS:  44
+Iteration: 1000000000
+Pi estimate: 3.14159265258962339118, obtained in 1.523691 seconds
+DONE 
+CPUS:  48
+Iteration: 1000000000
+Pi estimate: 3.14159265258978104285, obtained in 1.713253 seconds
+DONE 
+CPUS:  8
+Iteration: 1000000000
+Pi estimate: 3.14159265258932407505, obtained in 5.152438 seconds
+DONE 
+CPUS:  12
+Iteration: 1000000000
+Pi estimate: 3.14159265258979703006, obtained in 3.459847 seconds
+DONE 
+CPUS:  16
+Iteration: 1000000000
+Pi estimate: 3.14159265259020425987, obtained in 2.609655 seconds
+DONE 
+CPUS:  20
+Iteration: 1000000000
+Pi estimate: 3.14159265259025044514, obtained in 2.116502 seconds
+DONE 
+CPUS:  24
+Iteration: 1000000000
+Pi estimate: 3.14159265259062081554, obtained in 1.765028 seconds
+DONE 
+CPUS:  28
+Iteration: 1000000000
+Pi estimate: 3.14159265259036146745, obtained in 1.513463 seconds
+DONE 
+CPUS:  32
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.357576 seconds
+DONE 
+CPUS:  36
+Iteration: 1000000000
+Pi estimate: 3.14159265258958830813, obtained in 1.847177 seconds
+DONE 
+CPUS:  40
+Iteration: 1000000000
+Pi estimate: 3.14159265258981745816, obtained in 1.739337 seconds
+DONE 
+CPUS:  44
+Iteration: 1000000000
+Pi estimate: 3.14159265258962294709, obtained in 1.712786 seconds
+DONE 
+CPUS:  48
+Iteration: 1000000000
+Pi estimate: 3.14159265258978104285, obtained in 1.761393 seconds
+DONE 
+
+JOB STATISTICS
+==============
+Job ID: 4971244
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: RUNNING
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 04:31:28 core-walltime
+Job Wall-clock time: 00:08:29
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 56.00 GB (1.75 GB/core)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

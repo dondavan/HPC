@@ -1,0 +1,357 @@
+OpenMP parallelism
+
+======== Run :  1
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977847790, obtained in 0.074929 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.103254 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190566 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.356028 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.685247 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.324582 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.582530 seconds
+DONE 
+======== Run :  2
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051344 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101116 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.189498 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.361629 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.686066 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.329721 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.604648 seconds
+DONE 
+======== Run :  3
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051148 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100788 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190296 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.361140 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.706747 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.331094 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.600333 seconds
+DONE 
+======== Run :  4
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.052002 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101391 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190015 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.368840 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.682727 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.322696 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.608340 seconds
+DONE 
+======== Run :  5
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051870 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.103814 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190061 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355661 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.687438 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.342090 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.583466 seconds
+DONE 
+======== Run :  6
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.052403 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101156 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.189394 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.356568 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.682032 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.325146 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.576573 seconds
+DONE 
+======== Run :  7
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051410 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100816 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.194580 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355781 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.686561 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.332961 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.586750 seconds
+DONE 
+======== Run :  8
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.050972 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100790 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.191136 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355773 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.684437 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.328921 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.580356 seconds
+DONE 
+======== Run :  9
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051215 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100953 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190360 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355871 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.687859 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.320928 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.582294 seconds
+DONE 
+======== Run :  10
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.050820 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100351 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.192384 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.356261 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.691036 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.323748 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.584053 seconds
+DONE 
+======== Run :  11
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.050862 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101006 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.196229 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.356523 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.698823 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.322244 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.580481 seconds
+DONE 
+======== Run :  12
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051200 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101306 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.189747 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355382 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.691713 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.329771 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.584813 seconds
+DONE 
+======== Run :  13
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051053 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101171 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.195786 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355255 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.698583 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.325845 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.581028 seconds
+DONE 
+======== Run :  14
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.052052 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100745 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.195698 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.367972 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.685735 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.335390 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.584191 seconds
+DONE 
+======== Run :  15
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051466 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101473 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.191310 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.356207 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.685047 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.324952 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.580767 seconds
+DONE 
+======== Run :  16
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.050995 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101076 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190565 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355856 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.694661 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.328586 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.621967 seconds
+DONE 
+======== Run :  17
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.050979 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101204 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190163 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.354562 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.684639 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.354636 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.609323 seconds
+DONE 
+======== Run :  18
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051286 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.101406 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.189753 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.355848 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.685946 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.325905 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.600466 seconds
+DONE 
+======== Run :  19
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051784 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100896 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190022 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.356998 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.708996 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.338422 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.599725 seconds
+DONE 
+======== Run :  20
+CPUS:  32
+Iteration: 31250000
+Pi estimate: 3.14159262158977803381, obtained in 0.051715 seconds
+Iteration: 62500000
+Pi estimate: 3.14159263758972162606, obtained in 0.100575 seconds
+Iteration: 125000000
+Pi estimate: 3.14159264558957929125, obtained in 0.190722 seconds
+Iteration: 250000000
+Pi estimate: 3.14159264958972572757, obtained in 0.356656 seconds
+Iteration: 500000000
+Pi estimate: 3.14159265158986222843, obtained in 0.685400 seconds
+Iteration: 1000000000
+Pi estimate: 3.14159265259010700433, obtained in 1.329416 seconds
+Iteration: 2000000000
+Pi estimate: 3.14159265309020430124, obtained in 2.584176 seconds
+DONE 
+
+JOB STATISTICS
+==============
+Job ID: 4972245
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: RUNNING
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:00:00
+CPU Efficiency: 0.00% of 01:04:32 core-walltime
+Job Wall-clock time: 00:02:01
+Memory Utilized: 0.00 MB (estimated maximum)
+Memory Efficiency: 0.00% of 56.00 GB (1.75 GB/core)
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
