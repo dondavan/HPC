@@ -20,7 +20,7 @@ do
 
       echo "CPUS: " $OMP_NUM_THREADS
       echo "CPUS: " $OMP_NUM_THREADS >&2
-      ./pi
+      ./pi -i1000000000
       echo "DONE "
     done
 done
