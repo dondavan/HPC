@@ -15,6 +15,9 @@ module load GCCcore-11.3.0
 echo "OpenMP parallelism"
 echo
 
+for i in `seq 1 1 20`
+echo "Running: " $seq 
+do
 for ncores in `seq 8 4 48`
 
 do
@@ -24,4 +27,5 @@ do
   echo "CPUS: " $OMP_NUM_THREADS >&2
   ./pi
   echo "DONE "
+done
 done
