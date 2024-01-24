@@ -15,17 +15,19 @@ module load GCCcore-11.3.0
 echo "OpenMP parallelism"
 echo
 
-for i in `seq 1 1 20`
-echo "Running: " $seq 
-do
-for ncores in `seq 8 4 48`
 
+max=10
+for i in `seq 1 20`
 do
-  export OMP_NUM_THREADS=$ncores
+    for ncores in `seq 8 4 48`
 
-  echo "CPUS: " $OMP_NUM_THREADS
-  echo "CPUS: " $OMP_NUM_THREADS >&2
-  ./pi
-  echo "DONE "
+    do
+      export OMP_NUM_THREADS=$ncores
+
+      echo "CPUS: " $OMP_NUM_THREADS
+      echo "CPUS: " $OMP_NUM_THREADS >&2
+      ./pi
+      echo "DONE "
+    done
 done
-done
+
