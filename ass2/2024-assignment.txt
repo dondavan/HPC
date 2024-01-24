@@ -60,7 +60,7 @@ The basis script to submit the job would be as follows:
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=32
 #SBATCH --time=00:10:00
-#SBATCH --partition=normal
+#SBATCH --partition=thin_course
 #SBATCH --output=pi_%j.out
 #SBATCH --error=pi_%j.err
 
