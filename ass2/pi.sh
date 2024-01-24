@@ -8,7 +8,12 @@
 #SBATCH --output=pi_%j.out
 #SBATCH --error=pi_%j.err
 
+module purge
+module load 2022
+module load GCCcore-11.3.0
 
+echo "OpenMP parallelism"
+echo
 
 for i in `seq 1 20`
 do
