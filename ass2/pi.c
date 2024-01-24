@@ -6,6 +6,7 @@
 
 int main (int argc, char *argv[])
 {
+    int ch;
     //initialize variables
     int i;
     double pi = 0;
