@@ -47,7 +47,7 @@ void simulate(const struct parameters *p,struct results *r)
         }
     }
     /* Read-in Initial Board*/
-    read_board(p->input_fname, row, col, 3, 3, old);
+    read_board(p->input_fname, row, col, 100, 100, old);
     /* Output Board for Report*/
     {
         r->niter    = 99;
