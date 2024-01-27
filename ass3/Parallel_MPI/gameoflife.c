@@ -173,7 +173,7 @@ void simulate(const struct parameters *p,struct results *r)
         size_t p = 0;   /* Sequential Pointer */
         for(i_row = 0; i_row < row; i_row++){
             for(j_col = 0; j_col < col; j_col++){
-                gather_partition[p] = old[(i_row)*col + j_col];
+                gather_partition[p] = old[i_row*col + j_col];
                 p++;
             }
         
@@ -184,7 +184,6 @@ void simulate(const struct parameters *p,struct results *r)
     else{
         char * gather_partition = malloc(row * col * sizeof(char));
         MPI_Status stats;
-        size_t p;   /* Sequential Pointer */
         for(size_t target_rank = 1; target_rank < MPI_world_size; target_rank++){
             MPI_Recv(gather_partition,row * col, MPI_BYTE, target_rank, target_rank, MPI_COMM_WORLD,&stats);
 
@@ -192,9 +191,9 @@ void simulate(const struct parameters *p,struct results *r)
             row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
             col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
             if(target_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
-            p = 0;
-            for(i_row = row_start; i_row < row_end ; i_row++){
-                for(j_col = col_start; j_col < col_end; j_col++){
+
+            for(i_row = row_start; i_row <= row_end ; i_row++){
+                for(j_col = col_start; j_col <= col_end; j_col++){
                     old[i_row*col + j_col] = gather_partition[i_row*col + j_col];
                 }
             }
