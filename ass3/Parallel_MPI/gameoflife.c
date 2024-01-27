@@ -192,14 +192,6 @@ void simulate(const struct parameters *p,struct results *r)
             row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
             col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
             if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
-
-            for(i_row = 0; i_row < row; i_row++){
-                for(j_col = 0; j_col < col; j_col++){
-                    printf("%d",gather_partition[p]);
-                    p++;
-                }
-                printf("\n");
-            }
             
         }
 
