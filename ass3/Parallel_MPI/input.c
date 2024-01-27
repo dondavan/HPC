@@ -36,7 +36,7 @@ void read_parameters(struct parameters* p, int argc, char **argv)
     p->nthreads = 1;
     p->input_fname = "input/beehive.txt";
 
-    while ((ch = getopt(argc, argv, "f:hH:i:k:m:M:n:N:p:")) != -1)
+    while ((ch = getopt(argc, argv, "f:hH:i:k:m:M:n:N:x:X:y:Y:p:")) != -1)
     {
         switch(ch) {
         case 'i': p->maxiter = strtol(optarg, 0, 10); break;
