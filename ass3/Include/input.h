@@ -9,6 +9,9 @@ struct parameters {
     /* matrix size: N rows, M columns */
     size_t N, M;
 
+    /* initial partten position */
+    size_t X, Y;
+
     /* maximum number of iterations */
     size_t maxiter;
 

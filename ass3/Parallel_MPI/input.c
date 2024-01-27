@@ -13,6 +13,8 @@ static void usage(const char *pname)
            "  -m NUM     Set cylinder width to COLUMNS.\n"
            "  -i NUM     Set the maximum number of iterations to NUM.\n"
            "  -f FILE    Read initial board from FILE.\n"
+           "  -x NUM     Initial pattern x coordinate on board.\n"
+           "  -y NUM     Initial pattern y coordinate on board.\n"
            "  -k NUM     Set the iteration to report.\n"
            "  -p NUM     Number of threads to use (when applicable).\n"
            "  -h         Print this help.\n"
@@ -27,6 +29,8 @@ void read_parameters(struct parameters* p, int argc, char **argv)
     /* set defaults */
     p->N = 3000;
     p->M = 3000;
+    p->X = 1500;
+    p->Y = 1500;
     p->maxiter = 5000;
     p->period = 10;
     p->nthreads = 1;
@@ -40,12 +44,16 @@ void read_parameters(struct parameters* p, int argc, char **argv)
         case 'f': p->input_fname = optarg; break;
         case 'm': case 'M': p->M = strtol(optarg, 0, 10); break;
         case 'n': case 'N': p->N = strtol(optarg, 0, 10); break;
+        case 'x': case 'X': p->X = strtol(optarg, 0, 10); break;
+        case 'y': case 'Y': p->Y = strtol(optarg, 0, 10); break;
         case 'p': p->nthreads = strtol(optarg, 0, 10); break;
         case 'h': default: usage(argv[0]);
         }
     }
 
     if (!p->N || !p->M) die("empty grid");
+    if (p->X > p->M || p->Y > p->N) die("initial board out of bound");
+    
 
 }
 
