@@ -215,14 +215,14 @@ void simulate(const struct parameters *p,struct results *r)
             printf("\n");
         }
     }
-    /* Output Board for Report
+    //Output Board for Report
     if(MPI_rank==0){
         r->niter    = iter;
         r->row      = p->N;
         r->col      = p->M;
         r->board    = old;
         report_results(r);
-    }*/
+    }
 
 
     /**************************************************/
