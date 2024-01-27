@@ -234,5 +234,6 @@ void simulate(const struct parameters *p,struct results *r)
     free(send_buf_2);
     free(recv_buf_1);
     free(recv_buf_2);
+    MPI_Finalize();
     atexit(cleanup);
 }
