@@ -188,10 +188,16 @@ void simulate(const struct parameters *p,struct results *r)
         for(size_t target_rank = 1; target_rank < MPI_world_size; target_rank++){
             MPI_Recv(gather_partition,row * col, MPI_BYTE, target_rank, target_rank, MPI_COMM_WORLD,&stats);
 
-            row_start = MPI_rank * chuck_size + 1;      /* Tight Boundary */
+            row_start = target_rank * chuck_size + 1;      /* Tight Boundary */
             row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
             col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
-            if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
+            if(target_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
+            p = 0;
+            for(i_row = row_start; i_row < row_end ; i_row++){
+                for(j_col = col_start; j_col < col_end; j_col++){
+                    old[i_row][j_col] = gather_partition[i_row*col + j_col];
+                }
+            }
             
         }
 
