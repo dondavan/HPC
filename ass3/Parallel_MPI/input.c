@@ -34,7 +34,7 @@ void read_parameters(struct parameters* p, int argc, char **argv)
     p->maxiter = 5000;
     p->period = 10;
     p->nthreads = 1;
-    p->input_fname = "input/beehive.txt";
+    p->input_fname = "input/grower.txt";
 
     while ((ch = getopt(argc, argv, "f:hH:i:k:m:M:n:N:x:X:y:Y:p:")) != -1)
     {

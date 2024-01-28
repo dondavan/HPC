@@ -1,6 +1,7 @@
 #include <time.h>
 #include <math.h>
 #include <mpi.h>
+#include <omp.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -78,7 +79,7 @@ void simulate(const struct parameters *p,struct results *r)
     row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
     col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
 
-    if(MPI_rank == 0)row_start=1;                 /* Border with permant DEAD cell, so we don't iterate over them*/
+    if(MPI_rank == 0)row_start=1;                   /* Border with permant DEAD cell, so we don't iterate over them*/
     if(MPI_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
 
 
@@ -115,6 +116,7 @@ void simulate(const struct parameters *p,struct results *r)
         
 
         /* Iterate Over Cells */
+        #pragma omp parallel for
         for(i_row = row_start; i_row <= row_end; i_row++){
             for(j_col = col_start; j_col <= col_end; j_col++){
                 
