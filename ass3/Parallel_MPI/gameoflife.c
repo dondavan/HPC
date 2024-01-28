@@ -207,15 +207,17 @@ void simulate(const struct parameters *p,struct results *r)
 
     if(MPI_rank == 0) {
         printf("That took %f seconds\n",endtime-starttime);
+        /*
         for (int i = 0; i < row ; i++){
             for(int j = 0; j < col; j++){
                 printf("%d",old[i*col +j]);
             }
             printf("\n");
         }
+        */
     }
     //Output Board for Report
-    if(MPI_rank==0){
+    if(MPI_rank==0 && r->k){
         r->niter    = iter;
         r->row      = p->N;
         r->col      = p->M;
