@@ -1,0 +1,51 @@
+======== Run :  1
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 134.117037 seconds
+======== Run :  2
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 133.942769 seconds
+======== Run :  3
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 133.971786 seconds
+======== Run :  4
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 134.007333 seconds
+======== Run :  5
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 133.982927 seconds
+======== Run :  6
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 134.176685 seconds
+======== Run :  7
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 134.133900 seconds
+======== Run :  8
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+That took 134.131617 seconds
+======== Run :  9
+CPUS:  1
+My rank: 0, Row start: 1, Row end:2999 
+slurmstepd: error: *** JOB 5015279 ON tcn380 CANCELLED AT 2024-01-28T12:56:43 DUE TO TIME LIMIT ***
+slurmstepd: error: *** STEP 5015279.8 ON tcn380 CANCELLED AT 2024-01-28T12:56:43 DUE TO TIME LIMIT ***
+
+JOB STATISTICS
+==============
+Job ID: 5015279
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: TIMEOUT (exit code 0)
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:18:07
+CPU Efficiency: 5.62% of 05:22:24 core-walltime
+Job Wall-clock time: 00:20:09
+Memory Utilized: 143.89 MB
+Memory Efficiency: 0.50% of 28.00 GB
