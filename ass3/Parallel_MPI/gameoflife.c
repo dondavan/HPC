@@ -116,7 +116,6 @@ void simulate(const struct parameters *p,struct results *r)
         
 
         /* Iterate Over Cells */
-        #pragma omp parallel for
         for(i_row = row_start; i_row <= row_end; i_row++){
             for(j_col = col_start; j_col <= col_end; j_col++){
                 
