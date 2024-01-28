@@ -11,5 +11,5 @@ do
     echo "======== Run : " $i
     export OMP_NUM_THREADS=8
     echo "CPUS: " $OMP_NUM_THREADS
-    mpirun ./Parallel_MPI -n3000 -m3000 -x1500 -y1500 -i5000 -finput/grower.txt
+    mpirun ./Parallel_MPI -n3000 -m3000 -x1500 -y1500 -i100 -finput/grower.txt
 done
