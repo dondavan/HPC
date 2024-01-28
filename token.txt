@@ -1,7 +1,4 @@
 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
-snellius.surf.nl ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILENRhOqeGlePwdDfwc4nDnpx9a9+mol97b3uj3WOLk+
-snellius.surf.nl ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPRqaTk5jH55g3tDpemI76jMDMwpoLukoHCQowkJXA0dTNFUElZpU9tkzUiwYQc//qubglSE3mCM1DmwTJC7ta8=
-
 
 /* Compute Halo */
         {
