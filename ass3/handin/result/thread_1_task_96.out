@@ -1,0 +1,1955 @@
+======== Run :  1
+My rank: 0, Row start: 1, Row end:31 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank:1, took 3.660024 seconds
+My rank:2, took 3.659415 seconds
+My rank:3, took 3.660179 seconds
+My rank:4, took 3.660583 seconds
+My rank:5, took 3.660233 seconds
+My rank:6, took 3.660373 seconds
+My rank:7, took 3.660384 seconds
+My rank:8, took 3.660230 seconds
+My rank:9, took 3.659732 seconds
+My rank:10, took 3.660148 seconds
+My rank:11, took 3.659390 seconds
+My rank:12, took 3.659952 seconds
+My rank:13, took 3.660889 seconds
+My rank:14, took 3.667133 seconds
+My rank:15, took 3.666361 seconds
+My rank:16, took 3.667070 seconds
+My rank:17, took 3.667443 seconds
+My rank:18, took 3.666636 seconds
+My rank:19, took 3.666609 seconds
+My rank:20, took 3.666881 seconds
+My rank:21, took 3.666466 seconds
+My rank:22, took 3.666242 seconds
+My rank:23, took 3.666034 seconds
+My rank:24, took 3.666704 seconds
+My rank:25, took 3.666276 seconds
+My rank:26, took 3.666234 seconds
+My rank:27, took 3.667109 seconds
+My rank:28, took 3.666863 seconds
+My rank:29, took 3.667186 seconds
+My rank:30, took 3.667048 seconds
+My rank:31, took 3.666832 seconds
+My rank:32, took 3.667387 seconds
+My rank:33, took 3.667117 seconds
+My rank:34, took 3.666449 seconds
+My rank:35, took 3.666875 seconds
+My rank:36, took 3.667269 seconds
+My rank:37, took 3.666466 seconds
+My rank:38, took 3.666923 seconds
+My rank:39, took 3.667268 seconds
+My rank:40, took 3.667113 seconds
+My rank:41, took 3.666779 seconds
+My rank:42, took 3.672866 seconds
+My rank:43, took 3.672403 seconds
+My rank:44, took 3.672242 seconds
+My rank:45, took 3.672434 seconds
+My rank:46, took 3.672837 seconds
+My rank:47, took 3.672980 seconds
+My rank:48, took 3.673422 seconds
+My rank:49, took 3.673244 seconds
+My rank:50, took 3.673130 seconds
+My rank:51, took 3.668936 seconds
+My rank:52, took 3.669315 seconds
+My rank:53, took 3.669446 seconds
+My rank:54, took 3.668754 seconds
+My rank:55, took 3.669475 seconds
+My rank:56, took 3.668488 seconds
+My rank:57, took 3.668509 seconds
+My rank:58, took 3.668605 seconds
+My rank:59, took 3.669350 seconds
+My rank:60, took 3.669403 seconds
+My rank:61, took 3.669311 seconds
+My rank:62, took 3.669498 seconds
+My rank:63, took 3.669068 seconds
+My rank:64, took 3.668708 seconds
+My rank:65, took 3.668854 seconds
+My rank:66, took 3.669201 seconds
+My rank:67, took 3.669095 seconds
+My rank:68, took 3.668259 seconds
+My rank:69, took 3.668771 seconds
+My rank:70, took 3.669174 seconds
+My rank:71, took 3.668218 seconds
+My rank:72, took 3.668728 seconds
+My rank:73, took 3.667964 seconds
+My rank:74, took 3.669371 seconds
+My rank:75, took 3.668759 seconds
+My rank:76, took 3.668977 seconds
+My rank:77, took 3.668422 seconds
+My rank:78, took 3.669049 seconds
+My rank:79, took 3.651141 seconds
+My rank:80, took 3.649517 seconds
+My rank:81, took 3.650568 seconds
+My rank:82, took 3.650882 seconds
+My rank:83, took 3.650815 seconds
+My rank:84, took 3.650591 seconds
+My rank:85, took 3.650835 seconds
+My rank:86, took 3.651535 seconds
+My rank:87, took 3.651217 seconds
+My rank:88, took 3.651482 seconds
+My rank:89, took 3.651535 seconds
+My rank:90, took 3.651368 seconds
+My rank:91, took 3.652380 seconds
+My rank:92, took 3.652108 seconds
+My rank:93, took 3.652575 seconds
+My rank:94, took 3.652714 seconds
+My rank:95, took 3.652755 seconds
+My rank:0, took 3.660758 seconds
+That took 3.660758 seconds
+======== Run :  2
+My rank: 0, Row start: 1, Row end:31 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank:1, took 5.305965 seconds
+My rank:2, took 5.306318 seconds
+My rank:3, took 5.306329 seconds
+My rank:4, took 5.305590 seconds
+My rank:5, took 5.306047 seconds
+My rank:6, took 5.305665 seconds
+My rank:7, took 5.305785 seconds
+My rank:8, took 5.305972 seconds
+My rank:9, took 5.305490 seconds
+My rank:10, took 5.305899 seconds
+My rank:11, took 5.305871 seconds
+My rank:12, took 5.306307 seconds
+My rank:13, took 5.305793 seconds
+My rank:14, took 5.306274 seconds
+My rank:15, took 5.306257 seconds
+My rank:16, took 5.305774 seconds
+My rank:17, took 5.317551 seconds
+My rank:18, took 5.317696 seconds
+My rank:19, took 5.317779 seconds
+My rank:20, took 5.318354 seconds
+My rank:21, took 5.317795 seconds
+My rank:22, took 5.317750 seconds
+My rank:23, took 5.318109 seconds
+My rank:24, took 5.317438 seconds
+My rank:25, took 5.317528 seconds
+My rank:26, took 5.317988 seconds
+My rank:27, took 5.318066 seconds
+My rank:28, took 5.317531 seconds
+My rank:29, took 5.317732 seconds
+My rank:30, took 5.318181 seconds
+My rank:31, took 5.317364 seconds
+My rank:32, took 5.317292 seconds
+My rank:33, took 5.307621 seconds
+My rank:34, took 5.318274 seconds
+My rank:35, took 5.317508 seconds
+My rank:36, took 5.318059 seconds
+My rank:37, took 5.317785 seconds
+My rank:38, took 5.318335 seconds
+My rank:39, took 5.318057 seconds
+My rank:40, took 5.318170 seconds
+My rank:41, took 5.318460 seconds
+My rank:42, took 5.317723 seconds
+My rank:43, took 5.318172 seconds
+My rank:44, took 5.318368 seconds
+My rank:45, took 5.317298 seconds
+My rank:46, took 5.318074 seconds
+My rank:47, took 5.318266 seconds
+My rank:48, took 5.317570 seconds
+My rank:49, took 5.318416 seconds
+My rank:50, took 5.318192 seconds
+My rank:51, took 5.313867 seconds
+My rank:52, took 5.318429 seconds
+My rank:53, took 5.317719 seconds
+My rank:54, took 5.316974 seconds
+My rank:55, took 5.317581 seconds
+My rank:56, took 5.304957 seconds
+My rank:57, took 5.317649 seconds
+My rank:58, took 5.305943 seconds
+My rank:59, took 5.317436 seconds
+My rank:60, took 5.319055 seconds
+My rank:61, took 5.317162 seconds
+My rank:62, took 5.317247 seconds
+My rank:63, took 5.318124 seconds
+My rank:64, took 5.317691 seconds
+My rank:65, took 5.317591 seconds
+My rank:66, took 5.305726 seconds
+My rank:67, took 5.317680 seconds
+My rank:68, took 5.317917 seconds
+My rank:69, took 5.317679 seconds
+My rank:70, took 5.317508 seconds
+My rank:71, took 5.318093 seconds
+My rank:72, took 5.315557 seconds
+My rank:73, took 5.315815 seconds
+My rank:74, took 5.315773 seconds
+My rank:75, took 5.316105 seconds
+My rank:76, took 5.316392 seconds
+My rank:77, took 5.315844 seconds
+My rank:78, took 5.315875 seconds
+My rank:79, took 5.315533 seconds
+My rank:80, took 5.315840 seconds
+My rank:81, took 5.314902 seconds
+My rank:82, took 5.316275 seconds
+My rank:83, took 5.315700 seconds
+My rank:84, took 5.316254 seconds
+My rank:85, took 5.315645 seconds
+My rank:86, took 5.316575 seconds
+My rank:87, took 5.316818 seconds
+My rank:88, took 5.316152 seconds
+My rank:89, took 5.315926 seconds
+My rank:90, took 5.316780 seconds
+My rank:91, took 5.317120 seconds
+My rank:92, took 5.317380 seconds
+My rank:93, took 5.318051 seconds
+My rank:94, took 5.317536 seconds
+My rank:95, took 5.317975 seconds
+My rank:0, took 5.306315 seconds
+That took 5.306315 seconds
+======== Run :  3
+My rank: 5, Row start: 156, Row end:186 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 0, Row start: 1, Row end:31 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank:1, took 4.699261 seconds
+My rank:2, took 4.699928 seconds
+My rank:3, took 4.699718 seconds
+My rank:4, took 4.699173 seconds
+My rank:5, took 4.700937 seconds
+My rank:6, took 4.700571 seconds
+My rank:7, took 4.700992 seconds
+My rank:8, took 4.701331 seconds
+My rank:9, took 4.700452 seconds
+My rank:10, took 4.701551 seconds
+My rank:11, took 4.701813 seconds
+My rank:12, took 4.701819 seconds
+My rank:13, took 4.691089 seconds
+My rank:14, took 4.702451 seconds
+My rank:15, took 4.702506 seconds
+My rank:16, took 4.702933 seconds
+My rank:17, took 4.695877 seconds
+My rank:18, took 4.703403 seconds
+My rank:19, took 4.703062 seconds
+My rank:20, took 4.702706 seconds
+My rank:21, took 4.701535 seconds
+My rank:22, took 4.704233 seconds
+My rank:23, took 4.703274 seconds
+My rank:24, took 4.703944 seconds
+My rank:25, took 4.705331 seconds
+My rank:26, took 4.704802 seconds
+My rank:27, took 4.704358 seconds
+My rank:28, took 4.704606 seconds
+My rank:29, took 4.694153 seconds
+My rank:30, took 4.705283 seconds
+My rank:31, took 4.706050 seconds
+My rank:32, took 4.706282 seconds
+My rank:33, took 4.706339 seconds
+My rank:34, took 4.706109 seconds
+My rank:35, took 4.707016 seconds
+My rank:36, took 4.706266 seconds
+My rank:37, took 4.707079 seconds
+My rank:38, took 4.707500 seconds
+My rank:39, took 4.707893 seconds
+My rank:40, took 4.707332 seconds
+My rank:41, took 4.707948 seconds
+My rank:42, took 4.708261 seconds
+My rank:43, took 4.707681 seconds
+My rank:44, took 4.707708 seconds
+My rank:45, took 4.708260 seconds
+My rank:46, took 4.708482 seconds
+My rank:47, took 4.708791 seconds
+My rank:48, took 4.709506 seconds
+My rank:49, took 4.708403 seconds
+My rank:50, took 4.709851 seconds
+My rank:51, took 4.708945 seconds
+My rank:52, took 4.709528 seconds
+My rank:53, took 4.710628 seconds
+My rank:54, took 4.710161 seconds
+My rank:55, took 4.710637 seconds
+My rank:56, took 4.710606 seconds
+My rank:57, took 4.710822 seconds
+My rank:58, took 4.711257 seconds
+My rank:59, took 4.710973 seconds
+My rank:60, took 4.712047 seconds
+My rank:61, took 4.710949 seconds
+My rank:62, took 4.711918 seconds
+My rank:63, took 4.711521 seconds
+My rank:64, took 4.701335 seconds
+My rank:65, took 4.712390 seconds
+My rank:66, took 4.712732 seconds
+My rank:67, took 4.713320 seconds
+My rank:68, took 4.712417 seconds
+My rank:69, took 4.713709 seconds
+My rank:70, took 4.712943 seconds
+My rank:71, took 4.713779 seconds
+My rank:72, took 4.713604 seconds
+My rank:73, took 4.714330 seconds
+My rank:74, took 4.713900 seconds
+My rank:75, took 4.714162 seconds
+My rank:76, took 4.714617 seconds
+My rank:77, took 4.714532 seconds
+My rank:78, took 4.714637 seconds
+My rank:79, took 4.715235 seconds
+My rank:80, took 4.714991 seconds
+My rank:81, took 4.715361 seconds
+My rank:82, took 4.715612 seconds
+My rank:83, took 4.715736 seconds
+My rank:84, took 4.715186 seconds
+My rank:85, took 4.716003 seconds
+My rank:86, took 4.717058 seconds
+My rank:87, took 4.716917 seconds
+My rank:88, took 4.716811 seconds
+My rank:89, took 4.716770 seconds
+My rank:90, took 4.716986 seconds
+My rank:91, took 4.717436 seconds
+My rank:92, took 4.717728 seconds
+My rank:93, took 4.717766 seconds
+My rank:94, took 4.717094 seconds
+My rank:95, took 4.718063 seconds
+My rank:0, took 4.699555 seconds
+That took 4.699555 seconds
+======== Run :  4
+My rank: 0, Row start: 1, Row end:31 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 18, Row start: 559, Row end:589 
+My rank:1, took 7.819867 seconds
+My rank:2, took 7.820398 seconds
+My rank:3, took 7.820316 seconds
+My rank:4, took 7.820533 seconds
+My rank:5, took 7.820509 seconds
+My rank:6, took 7.812568 seconds
+My rank:7, took 7.820204 seconds
+My rank:8, took 7.820003 seconds
+My rank:9, took 7.820756 seconds
+My rank:10, took 7.820381 seconds
+My rank:11, took 7.819927 seconds
+My rank:12, took 7.820132 seconds
+My rank:13, took 7.820818 seconds
+My rank:14, took 7.820630 seconds
+My rank:15, took 7.820170 seconds
+My rank:16, took 7.837163 seconds
+My rank:17, took 7.837409 seconds
+My rank:18, took 7.813985 seconds
+My rank:19, took 7.838095 seconds
+My rank:20, took 7.837624 seconds
+My rank:21, took 7.837782 seconds
+My rank:22, took 7.837716 seconds
+My rank:23, took 7.837274 seconds
+My rank:24, took 7.837999 seconds
+My rank:25, took 7.835729 seconds
+My rank:26, took 7.837443 seconds
+My rank:27, took 7.838090 seconds
+My rank:28, took 7.837317 seconds
+My rank:29, took 7.837328 seconds
+My rank:30, took 7.837562 seconds
+My rank:31, took 7.837620 seconds
+My rank:32, took 7.837869 seconds
+My rank:33, took 7.837119 seconds
+My rank:34, took 7.837815 seconds
+My rank:35, took 7.838181 seconds
+My rank:36, took 7.838066 seconds
+My rank:37, took 7.834344 seconds
+My rank:38, took 7.872356 seconds
+My rank:39, took 7.859364 seconds
+My rank:40, took 7.872580 seconds
+My rank:41, took 7.872140 seconds
+My rank:42, took 7.871816 seconds
+My rank:43, took 7.872470 seconds
+My rank:44, took 7.872195 seconds
+My rank:45, took 7.872595 seconds
+My rank:46, took 7.871577 seconds
+My rank:47, took 7.864240 seconds
+My rank:48, took 7.864177 seconds
+My rank:49, took 7.864377 seconds
+My rank:50, took 7.864370 seconds
+My rank:51, took 7.863538 seconds
+My rank:52, took 7.863694 seconds
+My rank:53, took 7.864047 seconds
+My rank:54, took 7.856425 seconds
+My rank:55, took 7.864477 seconds
+My rank:56, took 7.863513 seconds
+My rank:57, took 7.864558 seconds
+My rank:58, took 7.863951 seconds
+My rank:59, took 7.864137 seconds
+My rank:60, took 7.864249 seconds
+My rank:61, took 7.864251 seconds
+My rank:62, took 7.863927 seconds
+My rank:63, took 7.863302 seconds
+My rank:64, took 7.863536 seconds
+My rank:65, took 7.861077 seconds
+My rank:66, took 7.864514 seconds
+My rank:67, took 7.863821 seconds
+My rank:68, took 7.864061 seconds
+My rank:69, took 7.864183 seconds
+My rank:70, took 7.863568 seconds
+My rank:71, took 7.863600 seconds
+My rank:72, took 7.863659 seconds
+My rank:73, took 7.864299 seconds
+My rank:74, took 7.863700 seconds
+My rank:75, took 7.863815 seconds
+My rank:76, took 7.864112 seconds
+My rank:77, took 7.863479 seconds
+My rank:78, took 7.863953 seconds
+My rank:79, took 7.864152 seconds
+My rank:80, took 7.863287 seconds
+My rank:81, took 7.851796 seconds
+My rank:82, took 7.850790 seconds
+My rank:83, took 7.852028 seconds
+My rank:84, took 7.851921 seconds
+My rank:85, took 7.852741 seconds
+My rank:86, took 7.852952 seconds
+My rank:87, took 7.852570 seconds
+My rank:88, took 7.852518 seconds
+My rank:89, took 7.852647 seconds
+My rank:90, took 7.853349 seconds
+My rank:91, took 7.853365 seconds
+My rank:92, took 7.853873 seconds
+My rank:93, took 7.853707 seconds
+My rank:94, took 7.853843 seconds
+My rank:95, took 7.854764 seconds
+My rank:0, took 7.819966 seconds
+That took 7.819966 seconds
+======== Run :  5
+My rank: 11, Row start: 342, Row end:372 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 0, Row start: 1, Row end:31 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank:1, took 4.458137 seconds
+My rank:2, took 4.457727 seconds
+My rank:3, took 4.458243 seconds
+My rank:4, took 4.459047 seconds
+My rank:5, took 4.458951 seconds
+My rank:6, took 4.459461 seconds
+My rank:7, took 4.459590 seconds
+My rank:8, took 4.459789 seconds
+My rank:9, took 4.457387 seconds
+My rank:10, took 4.455292 seconds
+My rank:11, took 4.460625 seconds
+My rank:12, took 4.460792 seconds
+My rank:13, took 4.460616 seconds
+My rank:14, took 4.461083 seconds
+My rank:15, took 4.458365 seconds
+My rank:16, took 4.458846 seconds
+My rank:17, took 4.461608 seconds
+My rank:18, took 4.452692 seconds
+My rank:19, took 4.461454 seconds
+My rank:20, took 4.462418 seconds
+My rank:21, took 4.462734 seconds
+My rank:22, took 4.462948 seconds
+My rank:23, took 4.463386 seconds
+My rank:24, took 4.463086 seconds
+My rank:25, took 4.460735 seconds
+My rank:26, took 4.467780 seconds
+My rank:27, took 4.467486 seconds
+My rank:28, took 4.468462 seconds
+My rank:29, took 4.468601 seconds
+My rank:30, took 4.465940 seconds
+My rank:31, took 4.455414 seconds
+My rank:32, took 4.464187 seconds
+My rank:33, took 4.464787 seconds
+My rank:34, took 4.464752 seconds
+My rank:35, took 4.464942 seconds
+My rank:36, took 4.453590 seconds
+My rank:37, took 4.465096 seconds
+My rank:38, took 4.465586 seconds
+My rank:39, took 4.466198 seconds
+My rank:40, took 4.466527 seconds
+My rank:41, took 4.465277 seconds
+My rank:42, took 4.466970 seconds
+My rank:43, took 4.467213 seconds
+My rank:44, took 4.467169 seconds
+My rank:45, took 4.467090 seconds
+My rank:46, took 4.465991 seconds
+My rank:47, took 4.467129 seconds
+My rank:48, took 4.465220 seconds
+My rank:49, took 4.465748 seconds
+My rank:50, took 4.467909 seconds
+My rank:51, took 4.467931 seconds
+My rank:52, took 4.467159 seconds
+My rank:53, took 4.469043 seconds
+My rank:54, took 4.469242 seconds
+My rank:55, took 4.469291 seconds
+My rank:56, took 4.469417 seconds
+My rank:57, took 4.466589 seconds
+My rank:58, took 4.470084 seconds
+My rank:59, took 4.468634 seconds
+My rank:60, took 4.469672 seconds
+My rank:61, took 4.469954 seconds
+My rank:62, took 4.468131 seconds
+My rank:63, took 4.470776 seconds
+My rank:64, took 4.460182 seconds
+My rank:65, took 4.449442 seconds
+My rank:66, took 4.458417 seconds
+My rank:67, took 4.471858 seconds
+My rank:68, took 4.471449 seconds
+My rank:69, took 4.469337 seconds
+My rank:70, took 4.472342 seconds
+My rank:71, took 4.471784 seconds
+My rank:72, took 4.472767 seconds
+My rank:73, took 4.460000 seconds
+My rank:74, took 4.472361 seconds
+My rank:75, took 4.472339 seconds
+My rank:76, took 4.473445 seconds
+My rank:77, took 4.473720 seconds
+My rank:78, took 4.471385 seconds
+My rank:79, took 4.473606 seconds
+My rank:80, took 4.473828 seconds
+My rank:81, took 4.473931 seconds
+My rank:82, took 4.474757 seconds
+My rank:83, took 4.474046 seconds
+My rank:84, took 4.474659 seconds
+My rank:85, took 4.475116 seconds
+My rank:86, took 4.474585 seconds
+My rank:87, took 4.473177 seconds
+My rank:88, took 4.476086 seconds
+My rank:89, took 4.475909 seconds
+My rank:90, took 4.473761 seconds
+My rank:91, took 4.476452 seconds
+My rank:92, took 4.476336 seconds
+My rank:93, took 4.476952 seconds
+My rank:94, took 4.474586 seconds
+My rank:95, took 4.477573 seconds
+My rank:0, took 4.457495 seconds
+That took 4.457495 seconds
+======== Run :  6
+My rank: 3, Row start: 94, Row end:124 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 0, Row start: 1, Row end:31 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank:1, took 7.697679 seconds
+My rank:2, took 7.697200 seconds
+My rank:3, took 7.697754 seconds
+My rank:4, took 7.696794 seconds
+My rank:5, took 7.697415 seconds
+My rank:6, took 7.697295 seconds
+My rank:7, took 7.696605 seconds
+My rank:8, took 7.697484 seconds
+My rank:9, took 7.697825 seconds
+My rank:10, took 7.696854 seconds
+My rank:11, took 7.696827 seconds
+My rank:12, took 7.697262 seconds
+My rank:13, took 7.695771 seconds
+My rank:14, took 7.696851 seconds
+My rank:15, took 7.704552 seconds
+My rank:16, took 7.704490 seconds
+My rank:17, took 7.704651 seconds
+My rank:18, took 7.703822 seconds
+My rank:19, took 7.702818 seconds
+My rank:20, took 7.691391 seconds
+My rank:21, took 7.703985 seconds
+My rank:22, took 7.703373 seconds
+My rank:23, took 7.703273 seconds
+My rank:24, took 7.704562 seconds
+My rank:25, took 7.708543 seconds
+My rank:26, took 7.709165 seconds
+My rank:27, took 7.708247 seconds
+My rank:28, took 7.708515 seconds
+My rank:29, took 7.708679 seconds
+My rank:30, took 7.708902 seconds
+My rank:31, took 7.708959 seconds
+My rank:32, took 7.709113 seconds
+My rank:33, took 7.708141 seconds
+My rank:34, took 7.708752 seconds
+My rank:35, took 7.709293 seconds
+My rank:36, took 7.709086 seconds
+My rank:37, took 7.708276 seconds
+My rank:38, took 7.708821 seconds
+My rank:39, took 7.708299 seconds
+My rank:40, took 7.708718 seconds
+My rank:41, took 7.707840 seconds
+My rank:42, took 7.706694 seconds
+My rank:43, took 7.708473 seconds
+My rank:44, took 7.696997 seconds
+My rank:45, took 7.709120 seconds
+My rank:46, took 7.709913 seconds
+My rank:47, took 7.708995 seconds
+My rank:48, took 7.708636 seconds
+My rank:49, took 7.708009 seconds
+My rank:50, took 7.707925 seconds
+My rank:51, took 7.708089 seconds
+My rank:52, took 7.709151 seconds
+My rank:53, took 7.708373 seconds
+My rank:54, took 7.705825 seconds
+My rank:55, took 7.705429 seconds
+My rank:56, took 7.705883 seconds
+My rank:57, took 7.705832 seconds
+My rank:58, took 7.705622 seconds
+My rank:59, took 7.705453 seconds
+My rank:60, took 7.713252 seconds
+My rank:61, took 7.713529 seconds
+My rank:62, took 7.712717 seconds
+My rank:63, took 7.712834 seconds
+My rank:64, took 7.713258 seconds
+My rank:65, took 7.713498 seconds
+My rank:66, took 7.713616 seconds
+My rank:67, took 7.713634 seconds
+My rank:68, took 7.713464 seconds
+My rank:69, took 7.713071 seconds
+My rank:70, took 7.712857 seconds
+My rank:71, took 7.713287 seconds
+My rank:72, took 7.713231 seconds
+My rank:73, took 7.713030 seconds
+My rank:74, took 7.712683 seconds
+My rank:75, took 7.713638 seconds
+My rank:76, took 7.713705 seconds
+My rank:77, took 7.713485 seconds
+My rank:78, took 7.712595 seconds
+My rank:79, took 7.712626 seconds
+My rank:80, took 7.713744 seconds
+My rank:81, took 7.713121 seconds
+My rank:82, took 7.713106 seconds
+My rank:83, took 7.713326 seconds
+My rank:84, took 7.712872 seconds
+My rank:85, took 7.715648 seconds
+My rank:86, took 7.715080 seconds
+My rank:87, took 7.716482 seconds
+My rank:88, took 7.716890 seconds
+My rank:89, took 7.715940 seconds
+My rank:90, took 7.716260 seconds
+My rank:91, took 7.716293 seconds
+My rank:92, took 7.716052 seconds
+My rank:93, took 7.701320 seconds
+My rank:94, took 7.710876 seconds
+My rank:95, took 7.710637 seconds
+My rank:0, took 7.696690 seconds
+That took 7.696690 seconds
+======== Run :  7
+My rank: 29, Row start: 900, Row end:930 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 0, Row start: 1, Row end:31 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank:1, took 4.374508 seconds
+My rank:2, took 4.373959 seconds
+My rank:3, took 4.374986 seconds
+My rank:4, took 4.374341 seconds
+My rank:5, took 4.386339 seconds
+My rank:6, took 4.385943 seconds
+My rank:7, took 4.386683 seconds
+My rank:8, took 4.386576 seconds
+My rank:9, took 4.384543 seconds
+My rank:10, took 4.384948 seconds
+My rank:11, took 4.386394 seconds
+My rank:12, took 4.385851 seconds
+My rank:13, took 4.386760 seconds
+My rank:14, took 4.386308 seconds
+My rank:15, took 4.385312 seconds
+My rank:16, took 4.386752 seconds
+My rank:17, took 4.385344 seconds
+My rank:18, took 4.384724 seconds
+My rank:19, took 4.386759 seconds
+My rank:20, took 4.386390 seconds
+My rank:21, took 4.386238 seconds
+My rank:22, took 4.386513 seconds
+My rank:23, took 4.385741 seconds
+My rank:24, took 4.386635 seconds
+My rank:25, took 4.386490 seconds
+My rank:26, took 4.386350 seconds
+My rank:27, took 4.386609 seconds
+My rank:28, took 4.386539 seconds
+My rank:29, took 4.387180 seconds
+My rank:30, took 4.386898 seconds
+My rank:31, took 4.385641 seconds
+My rank:32, took 4.386234 seconds
+My rank:33, took 4.386755 seconds
+My rank:34, took 4.384253 seconds
+My rank:35, took 4.386395 seconds
+My rank:36, took 4.386612 seconds
+My rank:37, took 4.385582 seconds
+My rank:38, took 4.386836 seconds
+My rank:39, took 4.384751 seconds
+My rank:40, took 4.386330 seconds
+My rank:41, took 4.385223 seconds
+My rank:42, took 4.386897 seconds
+My rank:43, took 4.386546 seconds
+My rank:44, took 4.386285 seconds
+My rank:45, took 4.386573 seconds
+My rank:46, took 4.399510 seconds
+My rank:47, took 4.397761 seconds
+My rank:48, took 4.398214 seconds
+My rank:49, took 4.398054 seconds
+My rank:50, took 4.398231 seconds
+My rank:51, took 4.397660 seconds
+My rank:52, took 4.399180 seconds
+My rank:53, took 4.399535 seconds
+My rank:54, took 4.397561 seconds
+My rank:55, took 4.398690 seconds
+My rank:56, took 4.399569 seconds
+My rank:57, took 4.399700 seconds
+My rank:58, took 4.398258 seconds
+My rank:59, took 4.399640 seconds
+My rank:60, took 4.399723 seconds
+My rank:61, took 4.398302 seconds
+My rank:62, took 4.397656 seconds
+My rank:63, took 4.399522 seconds
+My rank:64, took 4.398086 seconds
+My rank:65, took 4.396582 seconds
+My rank:66, took 4.399675 seconds
+My rank:67, took 4.399611 seconds
+My rank:68, took 4.398974 seconds
+My rank:69, took 4.399704 seconds
+My rank:70, took 4.399327 seconds
+My rank:71, took 4.399267 seconds
+My rank:72, took 4.398293 seconds
+My rank:73, took 4.399054 seconds
+My rank:74, took 4.399353 seconds
+My rank:75, took 4.399136 seconds
+My rank:76, took 4.399447 seconds
+My rank:77, took 4.399826 seconds
+My rank:78, took 4.396111 seconds
+My rank:79, took 4.399264 seconds
+My rank:80, took 4.399263 seconds
+My rank:81, took 4.398204 seconds
+My rank:82, took 4.399653 seconds
+My rank:83, took 4.399257 seconds
+My rank:84, took 4.399390 seconds
+My rank:85, took 4.399497 seconds
+My rank:86, took 4.398753 seconds
+My rank:87, took 4.398163 seconds
+My rank:88, took 4.398993 seconds
+My rank:89, took 4.398296 seconds
+My rank:90, took 4.398014 seconds
+My rank:91, took 4.398649 seconds
+My rank:92, took 4.399407 seconds
+My rank:93, took 4.375837 seconds
+My rank:94, took 4.388518 seconds
+My rank:95, took 4.389020 seconds
+My rank:0, took 4.374995 seconds
+That took 4.374995 seconds
+======== Run :  8
+My rank: 12, Row start: 373, Row end:403 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 0, Row start: 1, Row end:31 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank:1, took 6.239747 seconds
+My rank:2, took 6.239664 seconds
+My rank:3, took 6.239121 seconds
+My rank:4, took 6.237778 seconds
+My rank:5, took 6.239749 seconds
+My rank:6, took 6.239562 seconds
+My rank:7, took 6.239625 seconds
+My rank:8, took 6.226535 seconds
+My rank:9, took 6.238393 seconds
+My rank:10, took 6.217571 seconds
+My rank:11, took 6.231875 seconds
+My rank:12, took 6.226788 seconds
+My rank:13, took 6.226536 seconds
+My rank:14, took 6.228528 seconds
+My rank:15, took 6.229748 seconds
+My rank:16, took 6.228344 seconds
+My rank:17, took 6.229442 seconds
+My rank:18, took 6.229733 seconds
+My rank:19, took 6.229846 seconds
+My rank:20, took 6.229424 seconds
+My rank:21, took 6.228758 seconds
+My rank:22, took 6.227353 seconds
+My rank:23, took 6.229218 seconds
+My rank:24, took 6.230197 seconds
+My rank:25, took 6.228092 seconds
+My rank:26, took 6.229892 seconds
+My rank:27, took 6.228643 seconds
+My rank:28, took 6.229771 seconds
+My rank:29, took 6.229128 seconds
+My rank:30, took 6.230121 seconds
+My rank:31, took 6.218922 seconds
+My rank:32, took 6.229795 seconds
+My rank:33, took 6.229821 seconds
+My rank:34, took 6.229132 seconds
+My rank:35, took 6.205918 seconds
+My rank:36, took 6.229170 seconds
+My rank:37, took 6.229207 seconds
+My rank:38, took 6.228263 seconds
+My rank:39, took 6.229486 seconds
+My rank:40, took 6.229602 seconds
+My rank:41, took 6.228801 seconds
+My rank:42, took 6.229196 seconds
+My rank:43, took 6.229358 seconds
+My rank:44, took 6.229420 seconds
+My rank:45, took 6.229092 seconds
+My rank:46, took 6.228328 seconds
+My rank:47, took 6.229504 seconds
+My rank:48, took 6.230193 seconds
+My rank:49, took 6.229190 seconds
+My rank:50, took 6.229757 seconds
+My rank:51, took 6.230166 seconds
+My rank:52, took 6.228294 seconds
+My rank:53, took 6.229375 seconds
+My rank:54, took 6.236712 seconds
+My rank:55, took 6.236786 seconds
+My rank:56, took 6.234488 seconds
+My rank:57, took 6.231795 seconds
+My rank:58, took 6.232712 seconds
+My rank:59, took 6.231264 seconds
+My rank:60, took 6.233125 seconds
+My rank:61, took 6.232830 seconds
+My rank:62, took 6.232606 seconds
+My rank:63, took 6.232852 seconds
+My rank:64, took 6.232541 seconds
+My rank:65, took 6.232189 seconds
+My rank:66, took 6.221693 seconds
+My rank:67, took 6.232147 seconds
+My rank:68, took 6.232279 seconds
+My rank:69, took 6.219227 seconds
+My rank:70, took 6.218564 seconds
+My rank:71, took 6.219297 seconds
+My rank:72, took 6.219933 seconds
+My rank:73, took 6.219641 seconds
+My rank:74, took 6.219911 seconds
+My rank:75, took 6.219593 seconds
+My rank:76, took 6.217929 seconds
+My rank:77, took 6.219736 seconds
+My rank:78, took 6.219755 seconds
+My rank:79, took 6.218119 seconds
+My rank:80, took 6.218621 seconds
+My rank:81, took 6.219082 seconds
+My rank:82, took 6.219434 seconds
+My rank:83, took 6.223575 seconds
+My rank:84, took 6.218866 seconds
+My rank:85, took 6.219151 seconds
+My rank:86, took 6.218987 seconds
+My rank:87, took 6.203893 seconds
+My rank:88, took 6.202787 seconds
+My rank:89, took 6.203119 seconds
+My rank:90, took 6.201401 seconds
+My rank:91, took 6.204880 seconds
+My rank:92, took 6.204829 seconds
+My rank:93, took 6.203630 seconds
+My rank:94, took 6.204962 seconds
+My rank:95, took 6.205619 seconds
+My rank:0, took 6.240123 seconds
+That took 6.240123 seconds
+======== Run :  9
+My rank: 4, Row start: 125, Row end:155 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 1, Row start: 32, Row end:62 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 0, Row start: 1, Row end:31 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank:1, took 9.324891 seconds
+My rank:2, took 9.323983 seconds
+My rank:3, took 9.324856 seconds
+My rank:4, took 9.325131 seconds
+My rank:5, took 9.313111 seconds
+My rank:6, took 9.324684 seconds
+My rank:7, took 9.324859 seconds
+My rank:8, took 9.323903 seconds
+My rank:9, took 9.323255 seconds
+My rank:10, took 9.324909 seconds
+My rank:11, took 9.324276 seconds
+My rank:12, took 9.323670 seconds
+My rank:13, took 9.324817 seconds
+My rank:14, took 9.325060 seconds
+My rank:15, took 9.323529 seconds
+My rank:16, took 9.307909 seconds
+My rank:17, took 9.327242 seconds
+My rank:18, took 9.326553 seconds
+My rank:19, took 9.326241 seconds
+My rank:20, took 9.326305 seconds
+My rank:21, took 9.327175 seconds
+My rank:22, took 9.326368 seconds
+My rank:23, took 9.326235 seconds
+My rank:24, took 9.326075 seconds
+My rank:25, took 9.326400 seconds
+My rank:26, took 9.326957 seconds
+My rank:27, took 9.326206 seconds
+My rank:28, took 9.326796 seconds
+My rank:29, took 9.326944 seconds
+My rank:30, took 9.322181 seconds
+My rank:31, took 9.330221 seconds
+My rank:32, took 9.331040 seconds
+My rank:33, took 9.330823 seconds
+My rank:34, took 9.330685 seconds
+My rank:35, took 9.330529 seconds
+My rank:36, took 9.329854 seconds
+My rank:37, took 9.330957 seconds
+My rank:38, took 9.328914 seconds
+My rank:39, took 9.318243 seconds
+My rank:40, took 9.331086 seconds
+My rank:41, took 9.330840 seconds
+My rank:42, took 9.331012 seconds
+My rank:43, took 9.330997 seconds
+My rank:44, took 9.299167 seconds
+My rank:45, took 9.329855 seconds
+My rank:46, took 9.331116 seconds
+My rank:47, took 9.321258 seconds
+My rank:48, took 9.331010 seconds
+My rank:49, took 9.331363 seconds
+My rank:50, took 9.330494 seconds
+My rank:51, took 9.331066 seconds
+My rank:52, took 9.329689 seconds
+My rank:53, took 9.330916 seconds
+My rank:54, took 9.315296 seconds
+My rank:55, took 9.315116 seconds
+My rank:56, took 9.315194 seconds
+My rank:57, took 9.315215 seconds
+My rank:58, took 9.314405 seconds
+My rank:59, took 9.314981 seconds
+My rank:60, took 9.314633 seconds
+My rank:61, took 9.315169 seconds
+My rank:62, took 9.314066 seconds
+My rank:63, took 9.315040 seconds
+My rank:64, took 9.314375 seconds
+My rank:65, took 9.314910 seconds
+My rank:66, took 9.314234 seconds
+My rank:67, took 9.313545 seconds
+My rank:68, took 9.315824 seconds
+My rank:69, took 9.314242 seconds
+My rank:70, took 9.313037 seconds
+My rank:71, took 9.314679 seconds
+My rank:72, took 9.294369 seconds
+My rank:73, took 9.314053 seconds
+My rank:74, took 9.312269 seconds
+My rank:75, took 9.312908 seconds
+My rank:76, took 9.312993 seconds
+My rank:77, took 9.313010 seconds
+My rank:78, took 9.311710 seconds
+My rank:79, took 9.301048 seconds
+My rank:80, took 9.300409 seconds
+My rank:81, took 9.299711 seconds
+My rank:82, took 9.300097 seconds
+My rank:83, took 9.299482 seconds
+My rank:84, took 9.300036 seconds
+My rank:85, took 9.299908 seconds
+My rank:86, took 9.300657 seconds
+My rank:87, took 9.300033 seconds
+My rank:88, took 9.300282 seconds
+My rank:89, took 9.301214 seconds
+My rank:90, took 9.301218 seconds
+My rank:91, took 9.301219 seconds
+My rank:92, took 9.301400 seconds
+My rank:93, took 9.301052 seconds
+My rank:94, took 9.301897 seconds
+My rank:95, took 9.301626 seconds
+My rank:0, took 9.316478 seconds
+That took 9.316478 seconds
+======== Run :  10
+My rank: 1, Row start: 32, Row end:62 
+My rank: 3, Row start: 94, Row end:124 
+My rank: 13, Row start: 404, Row end:434 
+My rank: 25, Row start: 776, Row end:806 
+My rank: 78, Row start: 2419, Row end:2449 
+My rank: 81, Row start: 2512, Row end:2542 
+My rank: 94, Row start: 2915, Row end:2945 
+My rank: 0, Row start: 1, Row end:31 
+My rank: 7, Row start: 218, Row end:248 
+My rank: 8, Row start: 249, Row end:279 
+My rank: 19, Row start: 590, Row end:620 
+My rank: 32, Row start: 993, Row end:1023 
+My rank: 33, Row start: 1024, Row end:1054 
+My rank: 40, Row start: 1241, Row end:1271 
+My rank: 41, Row start: 1272, Row end:1302 
+My rank: 45, Row start: 1396, Row end:1426 
+My rank: 48, Row start: 1489, Row end:1519 
+My rank: 50, Row start: 1551, Row end:1581 
+My rank: 62, Row start: 1923, Row end:1953 
+My rank: 65, Row start: 2016, Row end:2046 
+My rank: 70, Row start: 2171, Row end:2201 
+My rank: 72, Row start: 2233, Row end:2263 
+My rank: 76, Row start: 2357, Row end:2387 
+My rank: 83, Row start: 2574, Row end:2604 
+My rank: 84, Row start: 2605, Row end:2635 
+My rank: 6, Row start: 187, Row end:217 
+My rank: 26, Row start: 807, Row end:837 
+My rank: 66, Row start: 2047, Row end:2077 
+My rank: 71, Row start: 2202, Row end:2232 
+My rank: 14, Row start: 435, Row end:465 
+My rank: 29, Row start: 900, Row end:930 
+My rank: 20, Row start: 621, Row end:651 
+My rank: 69, Row start: 2140, Row end:2170 
+My rank: 95, Row start: 2946, Row end:2999 
+My rank: 12, Row start: 373, Row end:403 
+My rank: 16, Row start: 497, Row end:527 
+My rank: 17, Row start: 528, Row end:558 
+My rank: 37, Row start: 1148, Row end:1178 
+My rank: 74, Row start: 2295, Row end:2325 
+My rank: 79, Row start: 2450, Row end:2480 
+My rank: 80, Row start: 2481, Row end:2511 
+My rank: 4, Row start: 125, Row end:155 
+My rank: 11, Row start: 342, Row end:372 
+My rank: 22, Row start: 683, Row end:713 
+My rank: 35, Row start: 1086, Row end:1116 
+My rank: 38, Row start: 1179, Row end:1209 
+My rank: 39, Row start: 1210, Row end:1240 
+My rank: 49, Row start: 1520, Row end:1550 
+My rank: 51, Row start: 1582, Row end:1612 
+My rank: 59, Row start: 1830, Row end:1860 
+My rank: 68, Row start: 2109, Row end:2139 
+My rank: 75, Row start: 2326, Row end:2356 
+My rank: 82, Row start: 2543, Row end:2573 
+My rank: 85, Row start: 2636, Row end:2666 
+My rank: 88, Row start: 2729, Row end:2759 
+My rank: 89, Row start: 2760, Row end:2790 
+My rank: 92, Row start: 2853, Row end:2883 
+My rank: 93, Row start: 2884, Row end:2914 
+My rank: 2, Row start: 63, Row end:93 
+My rank: 5, Row start: 156, Row end:186 
+My rank: 21, Row start: 652, Row end:682 
+My rank: 23, Row start: 714, Row end:744 
+My rank: 27, Row start: 838, Row end:868 
+My rank: 28, Row start: 869, Row end:899 
+My rank: 30, Row start: 931, Row end:961 
+My rank: 31, Row start: 962, Row end:992 
+My rank: 34, Row start: 1055, Row end:1085 
+My rank: 36, Row start: 1117, Row end:1147 
+My rank: 42, Row start: 1303, Row end:1333 
+My rank: 43, Row start: 1334, Row end:1364 
+My rank: 46, Row start: 1427, Row end:1457 
+My rank: 52, Row start: 1613, Row end:1643 
+My rank: 54, Row start: 1675, Row end:1705 
+My rank: 55, Row start: 1706, Row end:1736 
+My rank: 56, Row start: 1737, Row end:1767 
+My rank: 57, Row start: 1768, Row end:1798 
+My rank: 58, Row start: 1799, Row end:1829 
+My rank: 60, Row start: 1861, Row end:1891 
+My rank: 64, Row start: 1985, Row end:2015 
+My rank: 73, Row start: 2264, Row end:2294 
+My rank: 87, Row start: 2698, Row end:2728 
+My rank: 91, Row start: 2822, Row end:2852 
+My rank: 15, Row start: 466, Row end:496 
+My rank: 24, Row start: 745, Row end:775 
+My rank: 44, Row start: 1365, Row end:1395 
+My rank: 61, Row start: 1892, Row end:1922 
+My rank: 63, Row start: 1954, Row end:1984 
+My rank: 86, Row start: 2667, Row end:2697 
+My rank: 10, Row start: 311, Row end:341 
+My rank: 53, Row start: 1644, Row end:1674 
+My rank: 9, Row start: 280, Row end:310 
+My rank: 67, Row start: 2078, Row end:2108 
+My rank: 90, Row start: 2791, Row end:2821 
+My rank: 47, Row start: 1458, Row end:1488 
+My rank: 18, Row start: 559, Row end:589 
+My rank: 77, Row start: 2388, Row end:2418 
+My rank:1, took 2.432676 seconds
+My rank:2, took 2.431750 seconds
+My rank:3, took 2.433032 seconds
+My rank:4, took 2.432353 seconds
+My rank:5, took 2.432412 seconds
+My rank:6, took 2.433239 seconds
+My rank:7, took 2.433740 seconds
+My rank:8, took 2.433886 seconds
+My rank:9, took 2.432621 seconds
+My rank:10, took 2.432913 seconds
+My rank:11, took 2.433729 seconds
+My rank:12, took 2.434132 seconds
+My rank:13, took 2.435027 seconds
+My rank:14, took 2.434729 seconds
+My rank:15, took 2.434148 seconds
+My rank:16, took 2.434965 seconds
+My rank:17, took 2.435113 seconds
+My rank:18, took 2.422691 seconds
+My rank:19, took 2.435950 seconds
+My rank:20, took 2.435851 seconds
+My rank:21, took 2.435558 seconds
+My rank:22, took 2.436055 seconds
+My rank:23, took 2.435890 seconds
+My rank:24, took 2.435803 seconds
+My rank:25, took 2.437495 seconds
+My rank:26, took 2.437189 seconds
+My rank:27, took 2.435777 seconds
+My rank:28, took 2.436943 seconds
+My rank:29, took 2.437901 seconds
+My rank:30, took 2.437417 seconds
+My rank:31, took 2.437615 seconds
+My rank:32, took 2.438690 seconds
+My rank:33, took 2.438875 seconds
+My rank:34, took 2.438084 seconds
+My rank:35, took 2.438691 seconds
+My rank:36, took 2.438625 seconds
+My rank:37, took 2.439121 seconds
+My rank:38, took 2.439082 seconds
+My rank:39, took 2.439509 seconds
+My rank:40, took 2.440329 seconds
+My rank:41, took 2.440427 seconds
+My rank:42, took 2.439672 seconds
+My rank:43, took 2.440011 seconds
+My rank:44, took 2.439919 seconds
+My rank:45, took 2.441352 seconds
+My rank:46, took 2.440725 seconds
+My rank:47, took 2.439575 seconds
+My rank:48, took 2.441699 seconds
+My rank:49, took 2.441332 seconds
+My rank:50, took 2.442239 seconds
+My rank:51, took 2.441821 seconds
+My rank:52, took 2.441733 seconds
+My rank:53, took 2.441517 seconds
+My rank:54, took 2.442279 seconds
+My rank:55, took 2.430081 seconds
+My rank:56, took 2.442455 seconds
+My rank:57, took 2.442745 seconds
+My rank:58, took 2.443055 seconds
+My rank:59, took 2.443239 seconds
+My rank:60, took 2.443295 seconds
+My rank:61, took 2.443387 seconds
+My rank:62, took 2.444586 seconds
+My rank:63, took 2.443677 seconds
+My rank:64, took 2.444224 seconds
+My rank:65, took 2.445253 seconds
+My rank:66, took 2.445156 seconds
+My rank:67, took 2.443921 seconds
+My rank:68, took 2.444993 seconds
+My rank:69, took 2.445574 seconds
+My rank:70, took 2.446150 seconds
+My rank:71, took 2.446127 seconds
+My rank:72, took 2.446426 seconds
+My rank:73, took 2.445775 seconds
+My rank:74, took 2.446405 seconds
+My rank:75, took 2.446167 seconds
+My rank:76, took 2.447348 seconds
+My rank:77, took 2.440477 seconds
+My rank:78, took 2.448407 seconds
+My rank:79, took 2.447408 seconds
+My rank:80, took 2.447620 seconds
+My rank:81, took 2.448485 seconds
+My rank:82, took 2.447879 seconds
+My rank:83, took 2.448609 seconds
+My rank:84, took 2.448782 seconds
+My rank:85, took 2.448531 seconds
+My rank:86, took 2.448275 seconds
+My rank:87, took 2.448723 seconds
+My rank:88, took 2.449106 seconds
+My rank:89, took 2.449293 seconds
+My rank:90, took 2.448128 seconds
+My rank:91, took 2.449448 seconds
+My rank:92, took 2.449740 seconds
+My rank:93, took 2.450058 seconds
+My rank:94, took 2.451137 seconds
+My rank:95, took 2.450665 seconds
+My rank:0, took 2.432177 seconds
+That took 2.432177 seconds
+
+JOB STATISTICS
+==============
+Job ID: 5027974
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: RUNNING
+Nodes: 1
+Cores per node: 96
+CPU Utilized: 02:02:48
+CPU Efficiency: 17.17% of 11:55:12 core-walltime
+Job Wall-clock time: 00:07:27
+Memory Utilized: 7.07 GB
+Memory Efficiency: 4.21% of 168.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
