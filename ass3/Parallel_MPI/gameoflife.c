@@ -202,6 +202,8 @@ void simulate(const struct parameters *p,struct results *r)
 
     }
 
+    printf("My rank:%d, took %f seconds\n",MPI_rank,endtime-starttime);
+
     //Output Board for Report
     if(MPI_rank == 0) {
         printf("That took %f seconds\n",endtime-starttime);
