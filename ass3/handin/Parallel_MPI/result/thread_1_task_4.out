@@ -1,0 +1,75 @@
+======== Run :  1
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 0, Row start: 1, Row end:750 
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 3, Row start: 2251, Row end:2999 
+That took 32.816916 seconds
+======== Run :  2
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 3, Row start: 2251, Row end:2999 
+My rank: 0, Row start: 1, Row end:750 
+That took 32.858703 seconds
+======== Run :  3
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 3, Row start: 2251, Row end:2999 
+My rank: 0, Row start: 1, Row end:750 
+My rank: 2, Row start: 1501, Row end:2250 
+That took 32.990601 seconds
+======== Run :  4
+My rank: 0, Row start: 1, Row end:750 
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 3, Row start: 2251, Row end:2999 
+That took 32.831484 seconds
+======== Run :  5
+My rank: 0, Row start: 1, Row end:750 
+My rank: 3, Row start: 2251, Row end:2999 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 1, Row start: 751, Row end:1500 
+That took 32.784219 seconds
+======== Run :  6
+My rank: 3, Row start: 2251, Row end:2999 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 0, Row start: 1, Row end:750 
+That took 33.043315 seconds
+======== Run :  7
+My rank: 0, Row start: 1, Row end:750 
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 3, Row start: 2251, Row end:2999 
+That took 33.431640 seconds
+======== Run :  8
+My rank: 0, Row start: 1, Row end:750 
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 3, Row start: 2251, Row end:2999 
+That took 33.252639 seconds
+======== Run :  9
+My rank: 3, Row start: 2251, Row end:2999 
+My rank: 0, Row start: 1, Row end:750 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 1, Row start: 751, Row end:1500 
+That took 33.142992 seconds
+======== Run :  10
+My rank: 1, Row start: 751, Row end:1500 
+My rank: 2, Row start: 1501, Row end:2250 
+My rank: 3, Row start: 2251, Row end:2999 
+My rank: 0, Row start: 1, Row end:750 
+That took 33.103913 seconds
+
+JOB STATISTICS
+==============
+Job ID: 5015693
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: RUNNING
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:20:29
+CPU Efficiency: 20.93% of 01:37:52 core-walltime
+Job Wall-clock time: 00:06:07
+Memory Utilized: 557.31 MB
+Memory Efficiency: 1.94% of 28.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

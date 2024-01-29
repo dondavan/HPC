@@ -1,0 +1,115 @@
+======== Run :  1
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 0, Row start: 1, Row end:375 
+My rank: 1, Row start: 376, Row end:750 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+That took 16.478563 seconds
+======== Run :  2
+My rank: 1, Row start: 376, Row end:750 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 0, Row start: 1, Row end:375 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 7, Row start: 2626, Row end:2999 
+That took 16.497120 seconds
+======== Run :  3
+My rank: 0, Row start: 1, Row end:375 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 1, Row start: 376, Row end:750 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+That took 16.481058 seconds
+======== Run :  4
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 0, Row start: 1, Row end:375 
+My rank: 1, Row start: 376, Row end:750 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 7, Row start: 2626, Row end:2999 
+That took 16.501724 seconds
+======== Run :  5
+My rank: 0, Row start: 1, Row end:375 
+My rank: 1, Row start: 376, Row end:750 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+My rank: 4, Row start: 1501, Row end:1875 
+That took 16.500921 seconds
+======== Run :  6
+My rank: 0, Row start: 1, Row end:375 
+My rank: 1, Row start: 376, Row end:750 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+That took 16.505771 seconds
+======== Run :  7
+My rank: 0, Row start: 1, Row end:375 
+My rank: 1, Row start: 376, Row end:750 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+That took 16.495243 seconds
+======== Run :  8
+My rank: 1, Row start: 376, Row end:750 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+My rank: 0, Row start: 1, Row end:375 
+My rank: 2, Row start: 751, Row end:1125 
+That took 16.505686 seconds
+======== Run :  9
+My rank: 1, Row start: 376, Row end:750 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 3, Row start: 1126, Row end:1500 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+My rank: 0, Row start: 1, Row end:375 
+My rank: 5, Row start: 1876, Row end:2250 
+That took 16.509964 seconds
+======== Run :  10
+My rank: 0, Row start: 1, Row end:375 
+My rank: 1, Row start: 376, Row end:750 
+My rank: 2, Row start: 751, Row end:1125 
+My rank: 4, Row start: 1501, Row end:1875 
+My rank: 5, Row start: 1876, Row end:2250 
+My rank: 6, Row start: 2251, Row end:2625 
+My rank: 7, Row start: 2626, Row end:2999 
+My rank: 3, Row start: 1126, Row end:1500 
+That took 16.477269 seconds
+
+JOB STATISTICS
+==============
+Job ID: 5015694
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: RUNNING
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:23:41
+CPU Efficiency: 42.90% of 00:55:12 core-walltime
+Job Wall-clock time: 00:03:27
+Memory Utilized: 1.30 MB
+Memory Efficiency: 0.00% of 28.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

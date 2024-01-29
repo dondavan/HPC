@@ -1,0 +1,247 @@
+======== Run :  1
+CPUS:  8
+My rank: 0, Row start: 1, Row end:150 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 19, Row start: 2851, Row end:2999 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 14, Row start: 2101, Row end:2250 
+That took 6.699768 seconds
+======== Run :  2
+CPUS:  8
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 19, Row start: 2851, Row end:2999 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 0, Row start: 1, Row end:150 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 16, Row start: 2401, Row end:2550 
+That took 6.697121 seconds
+======== Run :  3
+CPUS:  8
+My rank: 0, Row start: 1, Row end:150 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 19, Row start: 2851, Row end:2999 
+That took 6.713182 seconds
+======== Run :  4
+CPUS:  8
+My rank: 0, Row start: 1, Row end:150 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 19, Row start: 2851, Row end:2999 
+My rank: 12, Row start: 1801, Row end:1950 
+That took 6.712386 seconds
+======== Run :  5
+CPUS:  8
+My rank: 3, Row start: 451, Row end:600 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 0, Row start: 1, Row end:150 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 19, Row start: 2851, Row end:2999 
+That took 6.672467 seconds
+======== Run :  6
+CPUS:  8
+srun: Job 5016816 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=5016816.5
+My rank: 1, Row start: 151, Row end:300 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 0, Row start: 1, Row end:150 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 19, Row start: 2851, Row end:2999 
+That took 6.700413 seconds
+======== Run :  7
+CPUS:  8
+My rank: 5, Row start: 751, Row end:900 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 0, Row start: 1, Row end:150 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 19, Row start: 2851, Row end:2999 
+My rank: 2, Row start: 301, Row end:450 
+That took 6.679555 seconds
+======== Run :  8
+CPUS:  8
+My rank: 0, Row start: 1, Row end:150 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 19, Row start: 2851, Row end:2999 
+My rank: 2, Row start: 301, Row end:450 
+That took 6.666573 seconds
+======== Run :  9
+CPUS:  8
+My rank: 0, Row start: 1, Row end:150 
+My rank: 1, Row start: 151, Row end:300 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 19, Row start: 2851, Row end:2999 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 6, Row start: 901, Row end:1050 
+That took 6.681132 seconds
+======== Run :  10
+CPUS:  8
+My rank: 1, Row start: 151, Row end:300 
+My rank: 9, Row start: 1351, Row end:1500 
+My rank: 10, Row start: 1501, Row end:1650 
+My rank: 14, Row start: 2101, Row end:2250 
+My rank: 0, Row start: 1, Row end:150 
+My rank: 2, Row start: 301, Row end:450 
+My rank: 3, Row start: 451, Row end:600 
+My rank: 4, Row start: 601, Row end:750 
+My rank: 5, Row start: 751, Row end:900 
+My rank: 6, Row start: 901, Row end:1050 
+My rank: 7, Row start: 1051, Row end:1200 
+My rank: 8, Row start: 1201, Row end:1350 
+My rank: 11, Row start: 1651, Row end:1800 
+My rank: 12, Row start: 1801, Row end:1950 
+My rank: 13, Row start: 1951, Row end:2100 
+My rank: 15, Row start: 2251, Row end:2400 
+My rank: 16, Row start: 2401, Row end:2550 
+My rank: 17, Row start: 2551, Row end:2700 
+My rank: 18, Row start: 2701, Row end:2850 
+My rank: 19, Row start: 2851, Row end:2999 
+That took 6.652638 seconds
+
+JOB STATISTICS
+==============
+Job ID: 5016816
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: RUNNING
+Nodes: 1
+Cores per node: 32
+CPU Utilized: 00:26:16
+CPU Efficiency: 38.18% of 01:08:48 core-walltime
+Job Wall-clock time: 00:02:09
+Memory Utilized: 1.30 MB
+Memory Efficiency: 0.00% of 56.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.

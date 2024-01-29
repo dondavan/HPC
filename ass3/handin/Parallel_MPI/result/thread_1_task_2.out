@@ -1,0 +1,55 @@
+======== Run :  1
+My rank: 1, Row start: 1501, Row end:2999 
+My rank: 0, Row start: 1, Row end:1500 
+That took 65.384273 seconds
+======== Run :  2
+My rank: 1, Row start: 1501, Row end:2999 
+My rank: 0, Row start: 1, Row end:1500 
+That took 65.483569 seconds
+======== Run :  3
+My rank: 0, Row start: 1, Row end:1500 
+My rank: 1, Row start: 1501, Row end:2999 
+That took 65.551545 seconds
+======== Run :  4
+My rank: 0, Row start: 1, Row end:1500 
+My rank: 1, Row start: 1501, Row end:2999 
+That took 66.542302 seconds
+======== Run :  5
+My rank: 0, Row start: 1, Row end:1500 
+My rank: 1, Row start: 1501, Row end:2999 
+That took 66.088144 seconds
+======== Run :  6
+My rank: 0, Row start: 1, Row end:1500 
+My rank: 1, Row start: 1501, Row end:2999 
+That took 66.566379 seconds
+======== Run :  7
+My rank: 0, Row start: 1, Row end:1500 
+My rank: 1, Row start: 1501, Row end:2999 
+That took 66.659454 seconds
+======== Run :  8
+My rank: 0, Row start: 1, Row end:1500 
+My rank: 1, Row start: 1501, Row end:2999 
+That took 66.708014 seconds
+======== Run :  9
+My rank: 0, Row start: 1, Row end:1500 
+My rank: 1, Row start: 1501, Row end:2999 
+That took 66.633385 seconds
+======== Run :  10
+My rank: 1, Row start: 1501, Row end:2999 
+My rank: 0, Row start: 1, Row end:1500 
+That took 66.636499 seconds
+
+JOB STATISTICS
+==============
+Job ID: 5015692
+Cluster: snellius
+User/Group: scur0330/scur0330
+State: RUNNING
+Nodes: 1
+Cores per node: 16
+CPU Utilized: 00:20:11
+CPU Efficiency: 10.86% of 03:05:52 core-walltime
+Job Wall-clock time: 00:11:37
+Memory Utilized: 281.28 MB
+Memory Efficiency: 0.98% of 28.00 GB
+WARNING: Efficiency statistics may be misleading for RUNNING jobs.
