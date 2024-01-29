@@ -1,6 +1,6 @@
 #!/bin/bash -e
 #SBATCH --partition=thin_course
-#SBATCH -t 10:00 --ntasks=40
+#SBATCH -t 10:00 --ntasks=44
 
 module purge
 module load 2023
