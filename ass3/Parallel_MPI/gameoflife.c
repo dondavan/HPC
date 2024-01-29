@@ -118,16 +118,16 @@ void simulate(const struct parameters *p,struct results *r)
         /* Iterate Over Cells */
         for(i_row = row_start; i_row <= row_end; i_row++){
             for(j_col = col_start; j_col <= col_end; j_col++){
-                
-                num_alive_neighbour = 0;
+            
                 /* Count Alive Neighbours Around Current Cell */
+                num_alive_neighbour = 0;
                 num_alive_neighbour = old[(i_row-1)*col + j_col-1] + old[(i_row-1)*col + j_col] + old[(i_row-1)*col + j_col+1] + 
                                       old[(i_row  )*col + j_col-1] +                            + old[(i_row  )*col + j_col+1] +
                                       old[(i_row+1)*col + j_col-1] + old[(i_row+1)*col + j_col] + old[(i_row+1)*col + j_col+1] ;
 
 
-                cur[i_row*col + j_col] = DEAD;
                 /* Apply Rules */
+                cur[i_row*col + j_col] = DEAD;
                 if(old[i_row*col + j_col] == ALIVE){
                     /* 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation. */
                     if(num_alive_neighbour < 2){
@@ -149,10 +149,9 @@ void simulate(const struct parameters *p,struct results *r)
                     }
                 }
 
+
             }
         }
-
-
 
         /* swap old and cur board */
         {
@@ -188,10 +187,10 @@ void simulate(const struct parameters *p,struct results *r)
         for(size_t target_rank = 1; target_rank < MPI_world_size; target_rank++){
             MPI_Recv(gather_partition,row * col, MPI_BYTE, target_rank, target_rank, MPI_COMM_WORLD,&stats);
 
-            row_start = target_rank * chuck_size + 1;      /* Tight Boundary */
-            row_end   = row_start + chuck_size - 1;     /* Tight Boundary */
-            col_start   = 1; col_end     = col-1;       /* Border with permant DEAD cell, so we don't iterate over them*/
-            if(target_rank == MPI_world_size-1)row_end=row-1;  /* Border with permant DEAD cell, so we don't iterate over them*/
+            row_start = target_rank * chuck_size + 1;       /* Tight Boundary */
+            row_end   = row_start + chuck_size - 1;         /* Tight Boundary */
+            col_start   = 1; col_end     = col-1;               /* Border with permant DEAD cell, so we don't iterate over them*/
+            if(target_rank == MPI_world_size-1)row_end=row-1;   /* Border with permant DEAD cell, so we don't iterate over them*/
 
             for(i_row = row_start; i_row <= row_end ; i_row++){
                 for(j_col = col_start; j_col <= col_end; j_col++){
@@ -203,27 +202,15 @@ void simulate(const struct parameters *p,struct results *r)
 
     }
 
-
+    //Output Board for Report
     if(MPI_rank == 0) {
         printf("That took %f seconds\n",endtime-starttime);
-        /*
-        for (int i = 0; i < row ; i++){
-            for(int j = 0; j < col; j++){
-                printf("%d",old[i*col +j]);
-            }
-            printf("\n");
-        }
-        */
-    }
-    //Output Board for Report
-    if(MPI_rank==0){
         r->niter    = iter;
         r->row      = p->N;
         r->col      = p->M;
         r->board    = old;
         report_results(r);
     }
-
 
     /**************************************************/
     /*                   Cleaning Up                  */

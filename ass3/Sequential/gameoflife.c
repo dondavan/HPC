@@ -47,7 +47,7 @@ void simulate(const struct parameters *p,struct results *r)
         }
     }
     /* Read-in Initial Board*/
-    read_board(p->input_fname, row, col, 100, 100, old);
+    read_board(p->input_fname, row, col, 1500, 1500, old);
     /* Output Board for Report*/
     {
         r->niter    = 99;
@@ -104,14 +104,7 @@ void simulate(const struct parameters *p,struct results *r)
             }   
         }
 
-        if(iter == p->period)
-        {
-            r->niter    = iter;
-            r->row      = p->N;
-            r->col      = p->M;
-            r->board    = cur;
-            report_results(r);
-        }
+        
         /* swap old and cur board */
         {
             void *tmp = cur;
@@ -121,7 +114,13 @@ void simulate(const struct parameters *p,struct results *r)
 
 
     }
-
+        {
+            r->niter    = iter;
+            r->row      = p->N;
+            r->col      = p->M;
+            r->board    = cur;
+            report_results(r);
+        }
 
     /**************************************************/
     /*                   Cleaning Up                  */
